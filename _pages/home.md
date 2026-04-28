@@ -1,18 +1,14 @@
 ---
-title: "Allan Lab - Home"
+title: "Medical Physics & Biomedical Instrumentation - Home"
 layout: homelay
-excerpt: "Allan Lab at Leiden University &rarr; LMU."
+excerpt: "Medical Physics & Biomedical Instrumentation Research Group, Universidad Complutense de Madrid."
 sitemap: false
 permalink: /
 ---
 
-**News: Our group moved to the University of Munich (LMU)!** Join us! 
+We are a research group at the [School of Medicine](https://medicina.ucm.es/) of the **Universidad Complutense de Madrid** (UCM), working on the development and validation of advanced medical imaging technologies, with applications in radiology, neuroimaging, and clinical dosimetry.
 
-We are a dynamic research group at [LMU physics](https://www.physik.lmu.de/en/index.html) and at the [Leiden Institute of Physics](http://www.physics.leidenuniv.nl/). 
-
-We have two overarching goals: first, 
-**to understand quantum materials**, including strange metals, high-temperature superconductors, and quantum critical electron matter. Second, **to make novel and useful materials** that never existed before, like possible room-temperature superconductors. 
-To achieve these goals, we develop new quantum sensing and quantum imaging instrumentation to obtain the key quantum mechanical degrees of freedom. We want to build the perfect instruments to answer the scientific questions we deem most important. 
+Our research is organized around three main lines: **new imaging modalities** based on X-ray phase contrast and virtual clinical trials, **brain imaging and biomarkers** through MEG and EEG techniques, and **medical physics and radiation protection** in clinical radiology. Across these lines we develop instrumentation, simulation, and AI-based methods, in close collaboration with hospitals and research centers.
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
     <!-- Menu -->
@@ -23,7 +19,6 @@ To achieve these goals, we develop new quantum sensing and quantum imaging instr
         <li data-target="#carousel" data-slide-to="3"></li>
         <li data-target="#carousel" data-slide-to="4"></li>
         <li data-target="#carousel" data-slide-to="5"></li>
-        <li data-target="#carousel" data-slide-to="6"></li>
     </ol>
 
     <!-- Items -->
@@ -42,8 +37,8 @@ To achieve these goals, we develop new quantum sensing and quantum imaging instr
         </div>
         <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/Fig_Science_Web.jpg" alt="Slide 5" />
-        </div>       
-         <div class="item">
+        </div>
+        <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/BSCCO2gap2.jpg" alt="Slide 6" />
         </div>
     </div>
@@ -58,18 +53,10 @@ To achieve these goals, we develop new quantum sensing and quantum imaging instr
 </div>
 
 
-We are currently building up our instruments right in the center of Munich, in the *Sommerfeldkeller*, where Sommerfeld and Röntgen worked. We will exchange ideas with world class groups working in quantum physics, cold-atom many-body physics, and 2d quantum materials. We are also a proud member of the [SuperC consortium](https://superc2033.com/our-team/).
+We collaborate with the **Hospital Universitario 12 de Octubre** and other hospitals and research centers in Madrid, contributing to translational projects in medical imaging and radiation safety. The group also participates in the **IMPACT** consortium, and trains residents in Medical Physics and PhD candidates in the field.
 
-**We are looking for passionate new PhD students, Postdocs, and Master students to join the team** [(more info)](https://www.allanlab.org/vacancies) **!**
-
-
-
-
+**We welcome PhD students, postdocs, and master students interested in joining our research.** Please contact us for more information.
 
 <figure class="fifth">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/LMU_logo.png" style="width: 130px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_Leiden.jpg" style="width: 140px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Tschira.png" style="width: 150px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_ERC.jpg" style="width: 100px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/SuperC_logo.png" style="width: 100px">
 </figure>
