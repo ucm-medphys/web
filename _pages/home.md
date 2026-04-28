@@ -6,9 +6,9 @@ sitemap: false
 permalink: /
 ---
 
-We are a research group at the [School of Medicine](https://medicina.ucm.es/) of the **Universidad Complutense de Madrid** (UCM), working on the development and validation of advanced medical imaging technologies, with applications in radiology, neuroimaging, and clinical dosimetry.
+This site presents the research line on **new medical imaging modalities** within the **Medical Physics & Biomedical Instrumentation Research Group** ([Group 920560](https://medicina.ucm.es/grupos/grupo/446)) at the **Universidad Complutense de Madrid**.
 
-Our research is organized around three main lines: **new imaging modalities** based on X-ray phase contrast and virtual clinical trials, **brain imaging and biomarkers** through MEG and EEG techniques, and **medical physics and radiation protection** in clinical radiology. Across these lines we develop instrumentation, simulation, and AI-based methods, in close collaboration with hospitals and research centers.
+We develop and validate emerging X-ray imaging technologies through a combination of Monte Carlo simulation, preclinical studies, and *virtual clinical trials*. Our work focuses on **X-ray phase contrast imaging** —in particular our home-built grating-based system, **XTALIS**— with applications to breast and chest imaging. We also develop simulation pipelines based on **Geant4 / GAMOS**, and apply **deep learning** to the generation of synthetic data and to image processing tasks.
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
     <!-- Menu -->
@@ -53,7 +53,7 @@ Our research is organized around three main lines: **new imaging modalities** ba
 </div>
 
 
-We collaborate with the **Hospital Universitario 12 de Octubre** and other hospitals and research centers in Madrid, contributing to translational projects in medical imaging and radiation safety. The group also participates in the **IMPACT** consortium, and trains residents in Medical Physics and PhD candidates in the field.
+We collaborate closely with the **Hospital Universitario 12 de Octubre** and other clinical and academic partners in Madrid, and contribute to the **IMPACT** consortium. We train PhD candidates and master students in medical imaging, simulation, and AI applied to radiology.
 
 **We welcome PhD students, postdocs, and master students interested in joining our research.** Please contact us for more information.
 
