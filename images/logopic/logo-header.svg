@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="60" viewBox="0 0 280 60" role="img" aria-label="UCM Imaging Lab">
+  <title>UCM Imaging Lab</title>
+  <desc>Header logo of UCM Imaging Lab. Concentric ring interference pattern crossed by a horizontal sine wave, alongside the laboratory name.</desc>
+
+  <g transform="translate(8, 12)" fill="none" stroke="#1a1a1a" stroke-width="1.4">
+    <circle cx="20" cy="18" r="17"/>
+    <circle cx="20" cy="18" r="13"/>
+    <circle cx="20" cy="18" r="9"/>
+    <circle cx="20" cy="18" r="5"/>
+    <g opacity="0.5">
+      <circle cx="24" cy="18" r="17"/>
+      <circle cx="24" cy="18" r="13"/>
+      <circle cx="24" cy="18" r="9"/>
+      <circle cx="24" cy="18" r="5"/>
+    </g>
+    <path d="M -7 18 Q -1 11, 5 18 T 17 18 T 29 18 T 41 18 T 53 18" stroke-width="1.8" stroke-linecap="round"/>
+  </g>
+
+  <text x="65" y="38" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="500" fill="#1a1a1a">UCM Imaging Lab</text>
+</svg>
