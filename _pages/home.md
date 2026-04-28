@@ -1,14 +1,14 @@
 ---
-title: "Medical Physics & Biomedical Instrumentation - Home"
+title: "UCM Imaging Lab - Home"
 layout: homelay
-excerpt: "Medical Physics & Biomedical Instrumentation Research Group, Universidad Complutense de Madrid."
+excerpt: "UCM Imaging Lab — Medical Physics & Biomedical Instrumentation Research Group, Universidad Complutense de Madrid."
 sitemap: false
 permalink: /
 ---
 
-This site presents the research line on **new medical imaging modalities** within the **Medical Physics & Biomedical Instrumentation Research Group** ([Group 920560](https://medicina.ucm.es/grupos/grupo/446)) at the **Universidad Complutense de Madrid**.
+We develop and validate emerging X-ray imaging technologies through a combination of Monte Carlo simulation, preclinical studies, and *virtual clinical trials*. Our work focuses on **X-ray phase contrast imaging** —in particular our home-built grating-based system, **XTALIS**— with applications to breast and chest imaging.
 
-We develop and validate emerging X-ray imaging technologies through a combination of Monte Carlo simulation, preclinical studies, and *virtual clinical trials*. Our work focuses on **X-ray phase contrast imaging** —in particular our home-built grating-based system, **XTALIS**— with applications to breast and chest imaging. We also develop simulation pipelines based on **Geant4 / GAMOS**, and apply **deep learning** to the generation of synthetic data and to image processing tasks.
+Our research integrates instrumentation, simulation pipelines based on **Geant4 / GAMOS**, and **deep learning** methods for the generation of synthetic data and for image processing tasks. We collaborate closely with the **Hospital Universitario 12 de Octubre** and other clinical and academic partners in Madrid, and contribute to the **IMPACT** consortium.
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
     <!-- Menu -->
@@ -53,10 +53,8 @@ We develop and validate emerging X-ray imaging technologies through a combinatio
 </div>
 
 
-We collaborate closely with the **Hospital Universitario 12 de Octubre** and other clinical and academic partners in Madrid, and contribute to the **IMPACT** consortium. We train PhD candidates and master students in medical imaging, simulation, and AI applied to radiology.
+### About us
 
-**We welcome PhD students, postdocs, and master students interested in joining our research.** Please contact us for more information.
+The **UCM Imaging Lab** is the research line on new medical imaging modalities of the [**Medical Physics &amp; Biomedical Instrumentation Research Group**](https://medicina.ucm.es/grupos/grupo/446) (Group 920560), based at the [**Faculty of Medicine**](https://medicina.ucm.es/) of the [**Universidad Complutense de Madrid**](https://www.ucm.es). Our group's full scientific output is available at the [**UCM Research Portal**](https://produccioncientifica.ucm.es/grupos/5241/detalle).
 
-<figure class="fifth">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/LMU_logo.png" style="width: 130px">
-</figure>
+We train PhD candidates and master students in medical imaging, simulation, and AI applied to radiology. **We welcome PhD students, postdocs, and master students interested in joining our research.** Please see our [Contact](contact) page for more information.
