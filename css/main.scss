@@ -254,16 +254,9 @@ a:hover .sidebar-sub-item { background: #fff; color: #555; text-decoration: none
 .xtalis-banner {
   background: #2c7bb6;
   border-radius: 4px;
-  padding: 18px 22px;
+  padding: 20px 24px;
   margin: 0 0 28px;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-align-items: center;
-  align-items: center;
 }
-.xtalis-banner-text { margin-left: 18px; }
-.xtalis-banner-text h2 { color: #fff; margin: 0; font-size: 22px; }
-.xtalis-banner-text p { color: rgba(255,255,255,0.85); margin: 4px 0 0; font-size: 13px; }
 
 /* Research images: responsive */
 #researchid img { max-width: 100%; height: auto; }
