@@ -1,0 +1,38 @@
+# Research lines — UCM Imaging Lab
+# Each entry feeds both the card grid on /research/ and the sidebar on subpages.
+# Place representative images in images/research/ (create folder when adding images).
+
+- id: xtalis
+  title: "XTALIS"
+  subtitle: "Grating-based phase contrast X-ray imaging"
+  description: "Our home-built Talbot–Lau grating interferometry system, applied to breast and chest imaging. We develop hardware, acquisition protocols, and retrieval algorithms for absorption, differential phase, and dark-field channels."
+  url: "xtalis"
+  color: "#2c7bb6"
+
+- id: simulation
+  title: "Monte Carlo simulation"
+  subtitle: "Geant4 / GAMOS pipelines for medical imaging"
+  description: "Monte Carlo simulation for system design, dosimetry, and synthetic image generation. Includes MIMAC, our mammography simulation code integrated with the VICTRE digital breast phantom."
+  url: "simulation"
+  color: "#1a9641"
+
+- id: vct
+  title: "Virtual Clinical Trials"
+  subtitle: "In silico evaluation of imaging technologies"
+  description: "End-to-end computational framework integrating digital patient phantoms, simulation engines, and virtual observers for task-based image quality assessment and technology comparison."
+  url: "vct"
+  color: "#c0392b"
+
+- id: deep-learning
+  title: "Deep Learning"
+  subtitle: "Neural networks for medical X-ray imaging"
+  description: "Synthetic data generation, image processing, and reconstruction methods. Integration of deep-learning models with Monte Carlo simulation pipelines and virtual clinical trial frameworks."
+  url: "deep-learning"
+  color: "#7b2d8b"
+
+- id: preclinical
+  title: "Preclinical imaging"
+  subtitle: "Experimental validation in biological models"
+  description: "Ex vivo and preclinical studies bridging simulation and clinical translation. Image quality assessment across absorption, differential phase, and dark-field contrast channels in breast and lung models."
+  url: "preclinical"
+  color: "#d35400"

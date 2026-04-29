@@ -1,41 +1,49 @@
 ---
-title: "Allan Lab - Vacancies"
+title: "UCM Imaging Lab - Openings"
 layout: textlay
-excerpt: "Openings"
+excerpt: "Open positions and opportunities to join the UCM Imaging Lab."
 sitemap: false
-permalink: /vacancies
+permalink: /openings/
 ---
 
-# Open positions
+# Openings
 
-**We are currently open for PhD and postdoc applications related to our ERC CoG grant. The positions are mostly related to the Electron Pair Microscopy projects.**
+We welcome applications from motivated researchers at all career stages who share our interest in medical imaging, Monte Carlo simulation, or deep learning applied to radiology.
 
-We are  looking for new group members with passion, talent, and grit!
+---
 
-You will have the chance to work on the grand challenges of condensed matter physics, often at the interface of instrumental design and new physics. You will be involved in determining the important and interesting questions, creating and improving instrumental setups, performing measurements, and making discoveries.
+## PhD positions
 
-### Past open positions
+PhD positions are funded through competitive national calls (FPI, FPU) and project grants. We advertise specific openings below when available. If no position is listed, open enquiries are still welcome — we are happy to explore options including external fellowships.
 
-You find the past job openings here:
-[Opening 1]({{ site.baseurl }}/downloads/GeneralPostdoc_2019_v01.pdf),
-[Opening 2]({{ site.baseurl }}/downloads/PPMS_PhD_2019_v01.pdf),
-[Opening 3]({{ site.baseurl }}/downloads/PD.pdf),
-[Opening 4]({{ site.baseurl }}/downloads/PHD1.pdf),
-[Opening 5]({{ site.baseurl }}/downloads/PHD2.pdf).
+*No specific positions advertised at this time. Check back or send an open enquiry.*
 
-### Applications for PhD and Postdoc positions
-If you are interested in working with us as a PhD student or postdoc, please send me an [email](mailto:milan.allan@gmail.com). State briefly why you are interested and attach a CV, including information about the grades you had as an undergraduate. No need for a separate cover letter or certificates. **Important**: please insert _"Application PhD"_ or _"Application Postdoc"_ in the subject line. If you are applying to a specific advertisement, note this in your email.
+---
 
-We especially welcome postdocs with fellowships. I'd be happy to support you, also after you apply to our group. Take a look at the [veni fellowship](https://www.nwo.nl/en/calls/nwo-talent-programme-veni-science-domain) or the Marie Curie fellowship (currently closed, next deadline probably Fall 2021, [here is last years call]({{ site.baseurl }}/downloads/h2020-wp1820-msca_en.pdf)). In many country, there are also fellowships available for outdoing postdocs.**
+## Postdoc positions
 
+We encourage candidates with their own fellowship to get in touch. Relevant schemes include:
 
-### Master projects for Leiden University students
-If you are a Master student at Leiden University looking for a Master project, contact me (or any group member) per email or stop by my office.
+- **Juan de la Cierva** (Formación and Incorporación) — Spanish national postdoctoral fellowships
+- **Marie Skłodowska-Curie Individual Fellowships** — European postdoctoral fellowships
+- **Ramón y Cajal** — Senior research track (Spain)
 
-### Bsc / Master students from elsewhere
-If you are interested in pursuing a Master degree at Leiden University, see [mastersinleiden.nl](http://www.mastersinleiden.nl/programmes/physics/en/introduction). Sometimes, we take master students or summer interns if we get exceptional applicants (this usually means very good grades and a personal recommendation).
+If you are considering applying for one of these and would like to discuss the possibility of joining our group, please contact us in advance — we are happy to support strong candidates.
 
+---
 
-<figure>
-<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/Gallery/DSC_0696.jpg" width="95%">
-</figure>
+## Master and Bachelor students
+
+We offer **TFM** (Master's thesis) and **TFG** (Bachelor's thesis) projects every year. Topics span the full range of our research: X-ray instrumentation, simulation, deep learning, and preclinical studies. See the [Teaching]({{ site.url }}{{ site.baseurl }}/teaching/) page for more details.
+
+---
+
+## How to apply
+
+Send an email to [garcia.pinto@ucm.es](mailto:garcia.pinto@ucm.es) with:
+
+- A brief description of your background and why you are interested in joining
+- Your CV
+- For PhD/postdoc enquiries: a short statement of research interests (1 page is enough)
+
+Use **"Application — PhD"**, **"Application — Postdoc"**, or **"TFM/TFG enquiry"** as the subject line, as appropriate.

@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<div id="researchid" class="col-sm-9">
+  {{ content }}
+</div>
+
+<div class="col-sm-3">
+  <div class="research-sidebar">
+    <p class="sidebar-title">Research Lines</p>
+    {% for line in site.data.researchlist %}
+    <a href="{{ site.url }}{{ site.baseurl }}/research/{{ line.url }}/">
+      <div class="sidebar-research-item{% if page.url contains line.url %} active{% endif %}" style="{% if page.url contains line.url %}border-left-color: {{ line.color }}; color: {{ line.color }};{% endif %}">
+        <strong>{{ line.title }}</strong><br>
+        <span class="sidebar-item-sub">{{ line.subtitle }}</span>
+      </div>
+    </a>
+    {% endfor %}
+    <div style="margin-top: 14px;">
+      <a href="{{ site.url }}{{ site.baseurl }}/research/" class="btn btn-default btn-sm btn-block">&larr; All research</a>
+    </div>
+  </div>
+</div>

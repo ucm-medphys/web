@@ -1,19 +1,18 @@
 ---
-title: "Allan Lab - Team"
+title: "UCM Imaging Lab - Group"
 layout: gridlay
-excerpt: "Allan Lab: Team members"
+excerpt: "UCM Imaging Lab: Group members"
 sitemap: false
 permalink: /team/
 ---
 
 # Group Members
 
- **We are  looking for new PhD students, Postdocs, and Master students to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
+**We welcome PhD students, postdocs, and master students interested in our research.** See our [Contact]({{ site.url }}{{ site.baseurl }}/contact/) page for more information.
 
+Jump to [staff and PhD students](#staff-and-phd-students), [master and bachelor students](#master-and-bachelor-students), [alumni](#alumni).
 
-Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-students), [alumni](#alumni), [administrative support](#administrative-support), [lab visitors](#lab-visitors).
-
-## Staff
+## Staff and PhD students
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
 
@@ -26,7 +25,7 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <h4>{{ member.name }}</h4>
-  <i>{{ member.info }} <!--<br>email: <{{ member.email }}></i> -->
+  <i>{{ member.info }}</i>
   <ul style="overflow: hidden">
 
   {% if member.number_educ == 1 %}
@@ -49,14 +48,6 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
   <li> {{ member.education2 | markdownify}} </li>
   <li> {{ member.education3 | markdownify}} </li>
   <li> {{ member.education4 | markdownify}} </li>
-  {% endif %}
-
-  {% if member.number_educ == 5 %}
-  <li> {{ member.education1 | markdownify}} </li>
-  <li> {{ member.education2 | markdownify}} </li>
-  <li> {{ member.education3 | markdownify}} </li>
-  <li> {{ member.education4 | markdownify}} </li>
-  <li> {{ member.education5 | markdownify}} </li>
   {% endif %}
 
   </ul>
@@ -76,8 +67,6 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 {% endif %}
 
 
-
-
 ## Master and Bachelor Students
 {% assign number_printed = 0 %}
 {% for member in site.data.students %}
@@ -90,7 +79,7 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 
 <div class="col-sm-6 clearfix">
   <h4>{{ member.name }}</h4>
-  <i>{{ member.info }} <!-- <br>email: <{{ member.email }}></i> -->
+  <i>{{ member.info }}</i>
   <ul style="overflow: hidden">
 
   {% if member.number_educ == 1 %}
@@ -106,13 +95,6 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
   <li> {{ member.education1 }} </li>
   <li> {{ member.education2 }} </li>
   <li> {{ member.education3 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 4 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
   {% endif %}
 
   </ul>
@@ -146,10 +128,7 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <h4>{{ member.name }}</h4>
-  <i>{{ member.duration }} <br> Role: {{ member.info }}</i>
-  <ul style="overflow: hidden">
-
-  </ul>
+  <i>{{ member.duration }} <br> {{ member.info }}</i>
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
@@ -165,32 +144,22 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 </div>
 {% endif %}
 
-## Former visitors, BSc/ MSc students
+## Former master and bachelor students
+
 <div class="row">
 
-<div class="col-sm-4 clearfix">
-<h4>Visitors</h4>
-{% for member in site.data.alumni_visitors %}
-{{ member.name }}
-{% endfor %}
-</div>
-
-<div class="col-sm-4 clearfix">
+<div class="col-sm-6 clearfix">
 <h4>Master students</h4>
 {% for member in site.data.alumni_msc %}
-{{ member.name }}
+{{ member.name }}<br/>
 {% endfor %}
 </div>
 
-<div class="col-sm-4 clearfix">
-<h4>Bachelor Students</h4>
+<div class="col-sm-6 clearfix">
+<h4>Bachelor students</h4>
 {% for member in site.data.alumni_bsc %}
-{{ member.name }}
+{{ member.name }}<br/>
 {% endfor %}
 </div>
 
 </div>
-
-
-## Administrative Support
-<a href="mailto:Rijsewijk@Physics.LeidenUniv.nl">Ellie van Rijsewijk</a> is helping us (and other groups) with administration.
