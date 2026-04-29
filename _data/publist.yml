@@ -1,34 +1,33 @@
 # Publications — UCM Imaging Lab
 #
-# highlight: 1  → shown in "Group highlights" with image and description
+# highlight: 1  → shown in "Group highlights" with description
 # highlight: 0  → only in the full list
 #
-# For images: place thumbnail in images/pubpic/ and set the filename below.
-# Leave image as "" if no thumbnail is available yet.
-# DOIs marked as "# TODO" need to be completed.
+# NOTE: Complete the author lists and add DOIs where marked TODO.
+# For images: place thumbnails in images/pubpic/ and set the filename.
 
 - title: "X-ray phase contrast imaging in GAMOS"
   image: ""
-  description: "Integration of X-ray phase contrast imaging capabilities into the GAMOS Monte Carlo framework, enabling detailed simulation of Talbot–Lau interferometric systems for breast and chest imaging research."
-  authors: "García Pinto D, Chevalier del Río M et al."
+  description: "Integration of X-ray phase contrast imaging capabilities into the GAMOS Monte Carlo framework, enabling simulation of Talbot–Lau interferometric systems for breast and chest imaging research."
+  authors: "García Pinto D et al."  # TODO: complete author list
   link:
-    url: "https://www.sciencedirect.com/journal/physica-medica"  # TODO: replace with DOI
+    url: "#"  # TODO: add DOI
     display: "Physica Medica 142 (2026)"
   highlight: 1
 
 - title: "A Generative Adversarial Approach to Remove Moiré Artifacts in Dark-Field and Phase-Contrast X-Ray Images"
   image: ""
   description: "GAN-based post-processing method to suppress Moiré fringe artefacts in dark-field and differential phase contrast images from grating-based X-ray imaging systems."
-  authors: "García Pinto D et al."
+  authors: "García Pinto D et al."  # TODO: complete author list
   link:
-    url: "#"  # TODO: replace with DOI
+    url: "#"  # TODO: add DOI
     display: "Lecture Notes in Computer Science (2025)"
   highlight: 1
 
 - title: "XPCIpy: A Python toolkit for X-ray phase-contrast imaging"
   image: ""
   description: "Open-source Python package providing tools for X-ray phase-contrast imaging: phase retrieval, dark-field extraction, phase stepping analysis, and simulation utilities for grating-based systems."
-  authors: "García Pinto D et al."
+  authors: "García Pinto D et al."  # TODO: complete author list
   link:
     url: "https://opg.optica.org/oe/fulltext.cfm?uri=oe-33-22-45949"
     display: "Optics Express 33, 45949 (2025)"
@@ -36,10 +35,10 @@
 
 - title: "Simulation of digital mammographic images using GAMOS: Proof of concept"
   image: ""
-  description: "Proof-of-concept demonstration of MIMAC, a GAMOS-based Monte Carlo pipeline for digital mammography simulation integrated with the VICTRE digital breast phantom."
-  authors: "García Pinto D, Chevalier del Río M et al."
+  description: "Proof-of-concept of MIMAC, a GAMOS-based Monte Carlo pipeline for digital mammography simulation integrated with the VICTRE digital breast phantom."
+  authors: "García Pinto D et al."  # TODO: complete author list
   link:
-    url: "https://www.sciencedirect.com/journal/physica-medica"  # TODO: replace with DOI
+    url: "#"  # TODO: add DOI
     display: "Physica Medica 135 (2025)"
   highlight: 1
 
@@ -48,42 +47,34 @@
   description: "Systematic validation of the SyRIS Monte Carlo simulation chain against experimental measurements on the XTALIS Talbot–Lau interferometry system."
   authors: "Sánchez-Lara A, García Pinto D, Chevalier del Río M"
   link:
-    url: "#"  # TODO: replace with DOI
+    url: "#"  # TODO: add DOI
     display: "Physica Medica (2022)"
   highlight: 1
 
 - title: "PS07.40 Simulation of digital mammographic image using GAMOS"
-  image: ""
-  description: ""
-  authors: "García Pinto D et al."
+  authors: "García Pinto D et al."  # TODO: complete author list
   link:
     url: "#"
-    display: "Physica Medica — EFOMP/ESTRO (2024)"
+    display: "Physica Medica — EFOMP/ESTRO congress (2024)"
   highlight: 0
 
 - title: "A new analytical model for the response curve in megavoltage photon beams of the radiochromic EBT3 films measured with flatbed scanners"
-  image: ""
-  description: ""
-  authors: "García Pinto D et al."
+  authors: "García Pinto D et al."  # TODO: complete author list
   link:
-    url: "#"  # TODO: replace with DOI
+    url: "#"  # TODO: add DOI
     display: "J. Appl. Clin. Med. Phys. 23 (2022)"
   highlight: 0
 
 - title: "A new approach to radiochromic film dosimetry based on non-local means"
-  image: ""
-  description: ""
-  authors: "García Pinto D et al."
+  authors: "García Pinto D et al."  # TODO: complete author list
   link:
-    url: "#"  # TODO: replace with DOI
-    display: "Phys. Med. Biol. 65, 22 (2020)"
+    url: "#"  # TODO: add DOI
+    display: "Phys. Med. Biol. 65, 225015 (2020)"
   highlight: 0
 
 - title: "Breast tomosynthesis reconstruction using TIGRE software tool"
-  image: ""
-  description: ""
-  authors: "García Pinto D et al."
+  authors: "García Pinto D et al."  # TODO: complete author list
   link:
-    url: "#"  # TODO: replace with DOI
+    url: "#"  # TODO: add DOI
     display: "Proc. SPIE Medical Imaging (2018)"
   highlight: 0

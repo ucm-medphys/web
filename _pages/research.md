@@ -12,33 +12,14 @@ Our research addresses the development and validation of emerging X-ray imaging 
 
 ---
 
-{% assign number_printed = 0 %}
-{% for line in site.data.researchlist %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-
-{% if even_odd == 0 %}
-<div class="row">
-{% endif %}
-
-<div class="col-sm-6 clearfix" style="margin-bottom: 22px;">
-<div style="border-top: 5px solid {{ line.color }}; border: 1px solid #e2e6ea; border-radius: 0 0 4px 4px; padding: 18px 20px 16px; min-height: 190px;">
-<h3 style="margin-top: 0; font-size: 17px;"><a href="{{ site.url }}{{ site.baseurl }}/research/{{ line.url }}/" style="color: {{ line.color }}; text-decoration: none;">{{ line.title }}</a></h3>
-<p style="color: #888; font-style: italic; font-size: 12.5px; margin: 0 0 10px;">{{ line.subtitle }}</p>
-<p style="font-size: 13.5px; color: #444; margin-bottom: 12px;">{{ line.description }}</p>
-<a href="{{ site.url }}{{ site.baseurl }}/research/{{ line.url }}/" class="btn btn-default btn-sm">Read more &rarr;</a>
+<div class="row" style="margin-top: 24px;" markdown="0">
+<div class="col-sm-6" style="margin-bottom: 22px;"><div style="border-top: 5px solid #2c7bb6; border: 1px solid #e2e6ea; border-radius: 0 0 4px 4px; padding: 18px 20px 16px; min-height: 210px;"><h3 style="margin-top:0; font-size:17px;"><a href="{{ site.baseurl }}/research/xtalis/" style="color:#2c7bb6; text-decoration:none;">XTALIS</a></h3><p style="color:#888; font-style:italic; font-size:12.5px; margin:0 0 10px;">Grating-based phase contrast X-ray imaging</p><p style="font-size:13.5px; color:#444; margin-bottom:12px;">Our home-built Talbot–Lau grating interferometry system, applied to breast and chest imaging. Hardware development, acquisition protocols, and retrieval of absorption, differential phase, and dark-field images.</p><a href="{{ site.baseurl }}/research/xtalis/" class="btn btn-default btn-sm">Read more &rarr;</a></div></div>
+<div class="col-sm-6" style="margin-bottom: 22px;"><div style="border-top: 5px solid #1a9641; border: 1px solid #e2e6ea; border-radius: 0 0 4px 4px; padding: 18px 20px 16px; min-height: 210px;"><h3 style="margin-top:0; font-size:17px;"><a href="{{ site.baseurl }}/research/simulation/" style="color:#1a9641; text-decoration:none;">Monte Carlo simulation</a></h3><p style="color:#888; font-style:italic; font-size:12.5px; margin:0 0 10px;">Geant4 / GAMOS pipelines for medical imaging</p><p style="font-size:13.5px; color:#444; margin-bottom:12px;">Monte Carlo simulation for system design, dosimetry, and synthetic image generation. Includes MIMAC, our mammography simulation code integrated with the VICTRE digital breast phantom.</p><a href="{{ site.baseurl }}/research/simulation/" class="btn btn-default btn-sm">Read more &rarr;</a></div></div>
 </div>
+<div class="row" markdown="0">
+<div class="col-sm-6" style="margin-bottom: 22px;"><div style="border-top: 5px solid #c0392b; border: 1px solid #e2e6ea; border-radius: 0 0 4px 4px; padding: 18px 20px 16px; min-height: 210px;"><h3 style="margin-top:0; font-size:17px;"><a href="{{ site.baseurl }}/research/vct/" style="color:#c0392b; text-decoration:none;">Virtual Clinical Trials</a></h3><p style="color:#888; font-style:italic; font-size:12.5px; margin:0 0 10px;">In silico evaluation of imaging technologies</p><p style="font-size:13.5px; color:#444; margin-bottom:12px;">End-to-end framework integrating digital patient phantoms, simulation engines, and virtual observers for task-based image quality assessment and technology comparison.</p><a href="{{ site.baseurl }}/research/vct/" class="btn btn-default btn-sm">Read more &rarr;</a></div></div>
+<div class="col-sm-6" style="margin-bottom: 22px;"><div style="border-top: 5px solid #7b2d8b; border: 1px solid #e2e6ea; border-radius: 0 0 4px 4px; padding: 18px 20px 16px; min-height: 210px;"><h3 style="margin-top:0; font-size:17px;"><a href="{{ site.baseurl }}/research/deep-learning/" style="color:#7b2d8b; text-decoration:none;">Deep Learning</a></h3><p style="color:#888; font-style:italic; font-size:12.5px; margin:0 0 10px;">Neural networks for medical X-ray imaging</p><p style="font-size:13.5px; color:#444; margin-bottom:12px;">Synthetic data generation, image processing, and reconstruction methods. Integration of deep-learning models with Monte Carlo pipelines and virtual clinical trial frameworks.</p><a href="{{ site.baseurl }}/research/deep-learning/" class="btn btn-default btn-sm">Read more &rarr;</a></div></div>
 </div>
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
+<div class="row" markdown="0">
+<div class="col-sm-6" style="margin-bottom: 22px;"><div style="border-top: 5px solid #d35400; border: 1px solid #e2e6ea; border-radius: 0 0 4px 4px; padding: 18px 20px 16px; min-height: 210px;"><h3 style="margin-top:0; font-size:17px;"><a href="{{ site.baseurl }}/research/preclinical/" style="color:#d35400; text-decoration:none;">Preclinical imaging</a></h3><p style="color:#888; font-style:italic; font-size:12.5px; margin:0 0 10px;">Experimental validation in biological models</p><p style="font-size:13.5px; color:#444; margin-bottom:12px;">Ex vivo and preclinical studies bridging simulation and clinical translation. Image quality assessment across absorption, differential phase, and dark-field channels in breast and lung models.</p><a href="{{ site.baseurl }}/research/preclinical/" class="btn btn-default btn-sm">Read more &rarr;</a></div></div>
 </div>
-{% endif %}
-
-{% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
-</div>
-{% endif %}
