@@ -14,6 +14,13 @@ layout: default
         {{ line.title }}
       </div>
     </a>
+    {% if line.id == 'xtalis' and page.url contains 'xtalis' %}
+    <a href="{{ site.url }}{{ site.baseurl }}/research/xtalis/xpcipy/">
+      <div class="sidebar-sub-item{% if page.url contains 'xpcipy' %} active{% endif %}">
+        XPCIpy
+      </div>
+    </a>
+    {% endif %}
     {% endfor %}
     <div style="margin-top: 14px;">
       <a href="{{ site.url }}{{ site.baseurl }}/research/" class="btn btn-default btn-sm btn-block">&larr; All research</a>

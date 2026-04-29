@@ -6,11 +6,11 @@ sitemap: false
 permalink: /research/xtalis/
 ---
 
-# XTALIS
+<div class="xtalis-banner" markdown="0">
+<img src="{{ site.url }}{{ site.baseurl }}/images/xtalis/xtalis_logo_white.png" alt="XTALIS" style="height:52px;margin:0;border-radius:0;"><div class="xtalis-banner-text"><h2>XTALIS</h2><p>Grating-based phase contrast X-ray imaging system</p></div>
+</div>
 
-**Grating-based phase contrast X-ray imaging.**
-
-XTALIS is our home-built X-ray phase contrast imaging system, based on **Talbot–Lau grating interferometry** with a micro-focus laboratory X-ray source. The system has been developed entirely in-house and is the central experimental platform of our research line, providing data for validation studies, algorithm development, and preclinical imaging.
+XTALIS is our home-built X-ray phase contrast imaging system, based on **Talbot–Lau grating interferometry** with a micro-focus laboratory X-ray source. Developed entirely in-house, it is the central experimental platform of this research line, providing data for validation studies, algorithm development, and preclinical imaging.
 
 ---
 
@@ -27,7 +27,9 @@ This is especially relevant in mammography and lung imaging, where subtle soft-t
 
 ## The XTALIS system
 
-XTALIS implements the **Talbot–Lau interferometer** geometry, which enables grating-based phase contrast with a conventional (spatially incoherent) X-ray source through the addition of a source grating (G0). The three-grating setup (G0, G1, G2) produces moiré fringes whose analysis — via **phase stepping** — yields the three contrast signals simultaneously from a single acquisition series.
+XTALIS implements the **Talbot–Lau interferometer** geometry, enabling grating-based phase contrast with a conventional (spatially incoherent) X-ray source through a source grating (G0). The three-grating setup (G0, G1, G2) produces moiré fringes whose analysis — via **phase stepping** — yields the three contrast signals simultaneously from a single acquisition series.
+
+<p markdown="0"><img src="{{ site.url }}{{ site.baseurl }}/images/xtalis/Sistema.png" alt="The XTALIS grating interferometry system at UCM Imaging Lab" style="width:100%;border-radius:3px;margin:12px 0 6px;"><em style="display:block;text-align:right;font-size:12px;color:#888;margin-bottom:18px;">The XTALIS Talbot–Lau grating interferometry system at the UCM Imaging Lab.</em></p>
 
 Key characteristics:
 - Micro-focus laboratory X-ray source
@@ -38,18 +40,35 @@ Key characteristics:
 
 ---
 
+## Image acquisition
+
+A single phase stepping series yields three simultaneous contrast images. The example below shows a typical acquisition from XTALIS: absorption, differential phase contrast, and dark-field.
+
+<p markdown="0"><img src="{{ site.url }}{{ site.baseurl }}/images/xtalis/Adquisicion_1.png" alt="Three contrast channels from XTALIS: absorption, differential phase contrast, dark-field" style="width:100%;border-radius:3px;margin:12px 0 6px;"><em style="display:block;text-align:right;font-size:12px;color:#888;margin-bottom:18px;">Example acquisition: absorption (left), differential phase contrast (centre), dark-field (right).</em></p>
+
+---
+
 ## What we do
 
-- **Hardware development and characterisation.** Design, assembly, and systematic characterisation of the interferometer, including source and detector optimisation, grating alignment, and system stability studies.
-- **Image acquisition and processing.** Implementation and optimisation of phase stepping protocols and phase retrieval algorithms; analysis of contrast-to-noise and spatial resolution trade-offs across the three channels.
-- **Validation against Monte Carlo simulation.** Cross-validation of experimental images against our simulation pipelines (see [Monte Carlo simulation]({{ site.url }}{{ site.baseurl }}/research/simulation/)), using the SyRIS framework to verify the accuracy of the simulation chain.
-- **Application to breast and chest imaging.** *Ex vivo* and preclinical studies in collaboration with our clinical partners (see [Preclinical imaging]({{ site.url }}{{ site.baseurl }}/research/preclinical/)).
+- **Hardware development and characterisation.** Design, assembly, and systematic characterisation of the interferometer: source and detector optimisation, grating alignment, and stability studies.
+- **Image acquisition and processing.** Implementation and optimisation of phase stepping protocols and phase retrieval algorithms; analysis of CNR and spatial resolution trade-offs across the three channels.
+- **Validation against Monte Carlo simulation.** Cross-validation of experimental images against our simulation pipelines (see [Monte Carlo simulation]({{ site.url }}{{ site.baseurl }}/research/simulation/)), using the SyRIS framework.
+- **Application to breast and chest imaging.** *Ex vivo* and preclinical studies in collaboration with clinical partners (see [Preclinical imaging]({{ site.url }}{{ site.baseurl }}/research/preclinical/)).
+
+---
+
+## XPCIpy &mdash; software toolkit
+
+We have developed **XPCIpy**, an open-source Python toolkit for X-ray phase-contrast imaging, covering phase stepping analysis, phase retrieval, dark-field extraction, and simulation utilities for grating-based systems. Published in *Optics Express* (2025).
+
+<a href="{{ site.url }}{{ site.baseurl }}/research/xtalis/xpcipy/" class="btn btn-default btn-sm">XPCIpy &rarr;</a>
 
 ---
 
 ## Selected publications
 
-- *Verification of the SyRIS simulation framework for a Talbot–Lau interferometric phase contrast imaging system with a micro-focus X-ray source.* Sánchez-Lara, García Pinto, Chevalier (2022).
+- *Verification of the SyRIS simulation framework for a Talbot–Lau interferometric phase contrast imaging system with a micro-focus X-ray source.* Sánchez-Lara A, García Pinto D, Chevalier del Río M. *Physica Medica* (2022).
+- *XPCIpy: A Python toolkit for X-ray phase-contrast imaging.* García Pinto D et al. *Optics Express* 33, 45949 (2025). [View &rarr;](https://opg.optica.org/oe/fulltext.cfm?uri=oe-33-22-45949)
 
 ---
 

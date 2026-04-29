@@ -235,3 +235,36 @@ a:hover .sidebar-research-item {
 a { text-decoration: none; }
 a:visited .sidebar-research-item { color: #555; }
 
+/* Sidebar sub-items (software tools, child pages) */
+.sidebar-sub-item {
+  display: block;
+  padding: 5px 8px 5px 20px;
+  margin: 0 0 2px 8px;
+  border-radius: 0 3px 3px 0;
+  border-left: 2px solid #ddd;
+  color: #888;
+  font-size: 11.5px;
+  line-height: 1.35;
+  transition: all 0.14s;
+}
+a:hover .sidebar-sub-item { background: #fff; color: #555; text-decoration: none; }
+.sidebar-sub-item.active { background: #fff; font-weight: 600; border-left-color: #2c7bb6; color: #2c7bb6; }
+
+/* XTALIS banner */
+.xtalis-banner {
+  background: #2c7bb6;
+  border-radius: 4px;
+  padding: 18px 22px;
+  margin: 0 0 28px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.xtalis-banner-text { margin-left: 18px; }
+.xtalis-banner-text h2 { color: #fff; margin: 0; font-size: 22px; }
+.xtalis-banner-text p { color: rgba(255,255,255,0.85); margin: 4px 0 0; font-size: 13px; }
+
+/* Research images: responsive */
+#researchid img { max-width: 100%; height: auto; }
+
