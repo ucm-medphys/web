@@ -8,7 +8,10 @@ permalink: /publications/
 
 # Publications
 
-{% if site.data.publist.size > 0 %}
+**Full scientific output also available at the [UCM Research Portal](https://produccioncientifica.ucm.es/grupos/5241/detalle).**
+
+---
+
 ## Group highlights
 
 {% assign number_printed = 0 %}
@@ -24,7 +27,9 @@ permalink: /publications/
 <div class="col-sm-6 clearfix">
  <div class="well">
   <pubtit>{{ publi.title }}</pubtit>
+  {% if publi.image and publi.image != "" %}
   <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="33%" style="float: left" />
+  {% endif %}
   <p>{{ publi.description }}</p>
   <p><em>{{ publi.authors }}</em></p>
   <p><strong><a href="{{ publi.link.url }}">{{ publi.link.display }}</a></strong></p>
@@ -53,11 +58,5 @@ permalink: /publications/
 {{ publi.title }}<br />
 <em>{{ publi.authors }}</em><br />
 <a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
-
+<p> </p>
 {% endfor %}
-
-{% else %}
-
-The full publication list is being compiled. In the meantime, see our complete scientific output on the [UCM Research Portal](https://produccioncientifica.ucm.es/grupos/5241/detalle).
-
-{% endif %}

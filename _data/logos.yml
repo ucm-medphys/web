@@ -1,0 +1,14 @@
+# Logo filenames for the Funding page.
+# Place image files in images/logopic/ and set the filename (without path) for each key.
+# Example:  ucm: ucm_logo.png
+#
+# Keys used in funding.md:
+#   ucm     → Universidad Complutense de Madrid
+#   aei     → Agencia Estatal de Investigación
+#   h12o    → Hospital Universitario 12 de Octubre
+#   impact  → IMPACT consortium
+
+# ucm:    ucm_logo.png
+# aei:    aei_logo.png
+# h12o:   h12o_logo.png
+# impact: impact_logo.png

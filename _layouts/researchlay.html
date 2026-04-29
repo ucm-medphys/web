@@ -11,8 +11,7 @@ layout: default
     {% for line in site.data.researchlist %}
     <a href="{{ site.url }}{{ site.baseurl }}/research/{{ line.url }}/">
       <div class="sidebar-research-item{% if page.url contains line.url %} active{% endif %}" style="{% if page.url contains line.url %}border-left-color: {{ line.color }}; color: {{ line.color }};{% endif %}">
-        <strong>{{ line.title }}</strong><br>
-        <span class="sidebar-item-sub">{{ line.subtitle }}</span>
+        {{ line.title }}
       </div>
     </a>
     {% endfor %}
