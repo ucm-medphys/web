@@ -33,13 +33,16 @@ Our research is supported by competitive national grants and institutional fundi
 
 ---
 
-## Institutional support &amp; collaborations
+## Institutional support
 
 <div class="row" style="margin-top: 24px;" markdown="0">
-<div class="col-sm-3 text-center" style="margin-bottom: 20px;"><div style="border: 1px solid #e0e0e0; border-radius: 4px; padding: 16px 10px; height: 80px; display:flex; align-items:center; justify-content:center;"><a href="https://www.ucm.es" target="_blank" style="color:#555; font-weight:bold; font-size:13px; text-decoration:none;">Universidad Complutense<br>de Madrid</a></div></div>
-<div class="col-sm-3 text-center" style="margin-bottom: 20px;"><div style="border: 1px solid #e0e0e0; border-radius: 4px; padding: 16px 10px; height: 80px; display:flex; align-items:center; justify-content:center;"><a href="https://www.aei.gob.es" target="_blank" style="color:#555; font-weight:bold; font-size:13px; text-decoration:none;">Agencia Estatal<br>de Investigación</a></div></div>
-<div class="col-sm-3 text-center" style="margin-bottom: 20px;"><div style="border: 1px solid #e0e0e0; border-radius: 4px; padding: 16px 10px; height: 80px; display:flex; align-items:center; justify-content:center;"><a href="https://www.imas12.es" target="_blank" style="color:#555; font-weight:bold; font-size:13px; text-decoration:none;">Hospital Universitario<br>12 de Octubre</a></div></div>
-<div class="col-sm-3 text-center" style="margin-bottom: 20px;"><div style="border: 1px solid #e0e0e0; border-radius: 4px; padding: 16px 10px; height: 80px; display:flex; align-items:center; justify-content:center;"><a href="https://www.impact-network.eu" target="_blank" style="color:#555; font-weight:bold; font-size:13px; text-decoration:none;">IMPACT<br>Consortium</a></div></div>
+<div class="col-sm-4 text-center" style="margin-bottom: 20px;"><div style="border: 1px solid #e0e0e0; border-radius: 4px; padding: 16px 10px; height: 80px; display:flex; align-items:center; justify-content:center;"><a href="https://www.ucm.es" target="_blank" style="color:#555; font-weight:bold; font-size:13px; text-decoration:none;">Universidad Complutense<br>de Madrid</a></div></div>
+<div class="col-sm-4 text-center" style="margin-bottom: 20px;"><div style="border: 1px solid #e0e0e0; border-radius: 4px; padding: 16px 10px; height: 80px; display:flex; align-items:center; justify-content:center;"><a href="https://www.aei.gob.es" target="_blank" style="color:#555; font-weight:bold; font-size:13px; text-decoration:none;">Agencia Estatal<br>de Investigación</a></div></div>
+<div class="col-sm-4 text-center" style="margin-bottom: 20px;"><div style="border: 1px solid #e0e0e0; border-radius: 4px; padding: 16px 10px; height: 80px; display:flex; align-items:center; justify-content:center;"><a href="https://www.imas12.es" target="_blank" style="color:#555; font-weight:bold; font-size:13px; text-decoration:none;">Hospital Universitario<br>12 de Octubre</a></div></div>
 </div>
 
-<p style="font-size:12px; color:#aaa; margin-top:4px;">To add logo images: place files in <code>images/logopic/</code> and update <code>_data/logos.yml</code>.</p>
+---
+
+## Research collaborations
+
+We collaborate with the research group at the **University of Girona** that coordinates the **IMPACT** network, an initiative focused on improving clinical access to phase contrast X-ray imaging technologies.

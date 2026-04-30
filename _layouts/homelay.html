@@ -2,11 +2,13 @@
 layout: default
 ---
 
-  <div id="homeid" class="col-sm-8">
-        <h1>Medical Physics & Biomedical Instrumentation</h1>
+{% include carousel.html %}
+<div class="clearfix"></div>
 
-	{{ content }}
-  </div>
-  <div id="newsid" class="col-sm-4" >
-	{% include news.html %}
-  </div>
+<div id="homeid" class="col-sm-8">
+  <h1>UCM Imaging Lab</h1>
+  {{ content }}
+</div>
+<div id="newsid" class="col-sm-4">
+  {% include news.html %}
+</div>
