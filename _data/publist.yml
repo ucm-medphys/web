@@ -7,11 +7,11 @@
 # For images: place thumbnails in images/pubpic/ and set the filename.
 
 - title: "X-ray phase contrast imaging in GAMOS"
-  image: ""
+  image: "gamospci/gr11_lrg.jpg"
   description: "Integration of X-ray phase contrast imaging capabilities into the GAMOS Monte Carlo framework, enabling simulation of Talbot–Lau interferometric systems for breast and chest imaging research."
-  authors: "García Pinto D et al."  # TODO: complete author list
+  authors: "Sánchez-Lara V, Lozano FR, Huerga C, Martínez-Gómez LC, García Pinto D"
   link:
-    url: "#"  # TODO: add DOI
+    url: "https://www.physicamedica.com/article/S1120-1797(26)00003-7/fulltext#sec-3"
     display: "Physica Medica 142 (2026)"
   highlight: 1
 
