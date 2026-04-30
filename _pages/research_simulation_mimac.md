@@ -44,8 +44,13 @@ MIMAC models the full imaging chain for a digital mammography system:
 
 ### Publications
 
-- *Simulation of digital mammographic images using GAMOS: Proof of concept.* Lozano FR, Sánchez-Lara V, Huerga C, Martínez-Gómez LC, García Pinto D. [Physica Medica 135 (2025)](https://www.physicamedica.com/article/S1120-1797(25)00105-X/fulltext){:target="_blank"}
-- *PS07.40 Simulation of digital mammographic image using GAMOS.* García Pinto D et al. Physica Medica — EFOMP/ESTRO congress (2024)
+<div class="well" style="margin-top:12px;" markdown="0">
+<p style="margin:0;"><strong>Simulation of digital mammographic images using GAMOS: Proof of concept</strong><br>Lozano FR, Sánchez-Lara V, Huerga C, Martínez-Gómez LC, García Pinto D<br><em>Physica Medica</em> 135 (2025) &nbsp;&middot;&nbsp; <a href="https://www.physicamedica.com/article/S1120-1797(25)00105-X/fulltext" target="_blank">View at Physica Medica &rarr;</a></p>
+</div>
+
+<div class="well" style="margin-top:8px;" markdown="0">
+<p style="margin:0;"><strong>PS07.40 Simulation of digital mammographic image using GAMOS</strong><br>García Pinto D et al.<br><em>Physica Medica</em> — EFOMP/ESTRO congress (2024)</p>
+</div>
 
 ---
 

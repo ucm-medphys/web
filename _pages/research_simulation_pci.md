@@ -48,10 +48,15 @@ This cross-validation — reported in our [SyRIS verification paper](#publicatio
 
 ---
 
-### Publications {#publications}
+### Publications
 
-- *X-ray phase contrast imaging in GAMOS.* Sánchez-Lara V, Lozano FR, Huerga C, Martínez-Gómez LC, García Pinto D. [Physica Medica 142 (2026)](https://www.physicamedica.com/article/S1120-1797(26)00003-7/fulltext){:target="_blank"}
-- *Verification of the SyRIS simulation framework for a Talbot–Lau interferometric phase contrast imaging system with a micro-focus X-ray source.* Sánchez-Lara A, García Pinto D, Chevalier del Río M. Physica Medica (2022)
+<div class="well" style="margin-top:12px;" markdown="0">
+<p style="margin:0;"><strong>X-ray phase contrast imaging in GAMOS</strong><br>Sánchez-Lara V, Lozano FR, Huerga C, Martínez-Gómez LC, García Pinto D<br><em>Physica Medica</em> 142 (2026) &nbsp;&middot;&nbsp; <a href="https://www.physicamedica.com/article/S1120-1797(26)00003-7/fulltext" target="_blank">View at Physica Medica &rarr;</a></p>
+</div>
+
+<div class="well" style="margin-top:8px;" markdown="0">
+<p style="margin:0;"><strong>Verification of the SyRIS simulation framework for a Talbot–Lau interferometric phase contrast imaging system with a micro-focus X-ray source</strong><br>Sánchez-Lara A, García Pinto D, Chevalier del Río M<br><em>Physica Medica</em> (2022)</p>
+</div>
 
 ---
 
