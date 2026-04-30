@@ -329,3 +329,61 @@ body {
 #gridid .well p { font-size: 13.5px; }
 #gridid .well p em { color: #555; }
 
+/* =====================
+   Content subheadings
+   ===================== */
+#gridid h2, #homeid h2, #textid h2, #researchid h2 {
+  font-size: 19px;
+  font-weight: 600;
+  color: #1a1a2e;
+  margin-top: 28px;
+  margin-bottom: 14px;
+  letter-spacing: -0.01em;
+}
+#gridid h3, #homeid h3, #textid h3, #researchid h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #2c2c2c;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* =====================
+   Project cards (funding)
+   ===================== */
+.project-card {
+  border-left: 4px solid #2c7bb6;
+  border-top: 1px solid #e8ecf0;
+  border-right: 1px solid #e8ecf0;
+  border-bottom: 1px solid #e8ecf0;
+  border-radius: 0 4px 4px 0;
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+  transition: box-shadow 0.18s ease, transform 0.18s ease;
+  padding: 16px 20px 14px;
+  margin-bottom: 16px;
+}
+.project-card:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.10);
+  transform: translateY(-1px);
+}
+.project-card h4 {
+  margin-top: 0;
+  font-size: 14.5px;
+  font-weight: 600;
+  color: #1a1a2e;
+  margin-bottom: 8px;
+  line-height: 1.45;
+}
+.project-card .project-meta {
+  font-size: 12px;
+  color: #888;
+  margin-bottom: 8px;
+  letter-spacing: 0.01em;
+}
+.project-card p {
+  font-size: 13.5px;
+  color: #444;
+  margin-bottom: 0;
+}
+

@@ -14,10 +14,9 @@ Our research is supported by competitive national grants and institutional fundi
 
 ## Current projects
 
-<div class="well" style="margin-top: 20px;" markdown="0">
-<h4 style="margin-top:0;">Experimentos preclínicos para el desarrollo y optimización de nuevas modalidades de imagen para cáncer de mama</h4>
-<p><strong>Referencia:</strong> 698590 &nbsp;·&nbsp; <strong>Año:</strong> 2025</p>
-<p><strong>Investigadores principales:</strong> Margarita Chevalier del Río, Diego García Pinto</p>
+<div class="project-card" markdown="0">
+<h4>Experimentos preclínicos para el desarrollo y optimización de nuevas modalidades de imagen para cáncer de mama</h4>
+<p class="project-meta">Ref. 698590 &nbsp;·&nbsp; 2025 &nbsp;·&nbsp; IP: Margarita Chevalier del Río, Diego García Pinto</p>
 <p>Development and optimisation of new X-ray imaging modalities — including phase contrast — for breast cancer detection, with a focus on preclinical experiments with ex vivo specimens.</p>
 </div>
 
@@ -25,9 +24,9 @@ Our research is supported by competitive national grants and institutional fundi
 
 ## Past projects
 
-<div class="well" markdown="0">
-<h4 style="margin-top:0;">Imagen de contraste de fase de rayos X mediante redes de difracción</h4>
-<p><strong>Año:</strong> 2022 &nbsp;·&nbsp; <strong>Investigador principal:</strong> Diego García Pinto</p>
+<div class="project-card" markdown="0">
+<h4>Imagen de contraste de fase de rayos X mediante redes de difracción</h4>
+<p class="project-meta">2022 &nbsp;·&nbsp; IP: Diego García Pinto</p>
 <p>Development of the grating-based phase contrast X-ray imaging methodology that led to the XTALIS system.</p>
 </div>
 
