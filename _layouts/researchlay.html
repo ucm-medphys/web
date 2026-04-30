@@ -21,6 +21,18 @@ layout: default
       </div>
     </a>
     {% endif %}
+    {% if line.id == 'simulation' and page.url contains 'simulation' %}
+    <a href="{{ site.url }}{{ site.baseurl }}/research/simulation/mimac/">
+      <div class="sidebar-sub-item{% if page.url contains 'mimac' %} active{% endif %}">
+        MIMAC
+      </div>
+    </a>
+    <a href="{{ site.url }}{{ site.baseurl }}/research/simulation/pci/">
+      <div class="sidebar-sub-item{% if page.url contains '/pci' %} active{% endif %}">
+        Phase contrast
+      </div>
+    </a>
+    {% endif %}
     {% endfor %}
     <div style="margin-top: 14px;">
       <a href="{{ site.url }}{{ site.baseurl }}/research/" class="btn btn-default btn-sm btn-block">&larr; All research</a>
