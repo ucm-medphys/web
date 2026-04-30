@@ -16,19 +16,19 @@ layout: default
     </a>
     {% if line.id == 'xtalis' and page.url contains 'xtalis' %}
     <a href="{{ site.url }}{{ site.baseurl }}/research/xtalis/xpcipy/">
-      <div class="sidebar-sub-item{% if page.url contains 'xpcipy' %} active{% endif %}">
+      <div class="sidebar-sub-item{% if page.url contains 'xpcipy' %} active{% endif %}"{% if page.url contains 'xpcipy' %} style="border-left-color: {{ line.color }}; color: {{ line.color }};"{% endif %}>
         XPCIpy
       </div>
     </a>
     {% endif %}
     {% if line.id == 'simulation' and page.url contains 'simulation' %}
     <a href="{{ site.url }}{{ site.baseurl }}/research/simulation/mimac/">
-      <div class="sidebar-sub-item{% if page.url contains 'mimac' %} active{% endif %}">
+      <div class="sidebar-sub-item{% if page.url contains 'mimac' %} active{% endif %}"{% if page.url contains 'mimac' %} style="border-left-color: {{ line.color }}; color: {{ line.color }};"{% endif %}>
         MIMAC
       </div>
     </a>
     <a href="{{ site.url }}{{ site.baseurl }}/research/simulation/pci/">
-      <div class="sidebar-sub-item{% if page.url contains '/pci' %} active{% endif %}">
+      <div class="sidebar-sub-item{% if page.url contains '/pci' %} active{% endif %}"{% if page.url contains '/pci' %} style="border-left-color: {{ line.color }}; color: {{ line.color }};"{% endif %}>
         Phase contrast
       </div>
     </a>
