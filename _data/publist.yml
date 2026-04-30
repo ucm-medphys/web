@@ -25,9 +25,9 @@
   highlight: 1
 
 - title: "XPCIpy: A Python toolkit for X-ray phase-contrast imaging"
-  image: ""
+  image: "xpcipy/XPCIpy.jpg"
   description: "Open-source Python package providing tools for X-ray phase-contrast imaging: phase retrieval, dark-field extraction, phase stepping analysis, and simulation utilities for grating-based systems."
-  authors: "García Pinto D et al."  # TODO: complete author list
+  authors: "Sánchez-Lara V, García Pinto D"
   link:
     url: "https://opg.optica.org/oe/fulltext.cfm?uri=oe-33-22-45949"
     display: "Optics Express 33, 45949 (2025)"
