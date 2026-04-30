@@ -11,7 +11,7 @@
   description: "Integration of X-ray phase contrast imaging capabilities into the GAMOS Monte Carlo framework, enabling simulation of Talbot–Lau interferometric systems for breast and chest imaging research."
   authors: "Sánchez-Lara V, Lozano FR, Huerga C, Martínez-Gómez LC, García Pinto D"
   link:
-    url: "https://www.physicamedica.com/article/S1120-1797(26)00003-7/fulltext#sec-3"
+    url: "https://www.physicamedica.com/article/S1120-1797(26)00003-7/fulltext"
     display: "Physica Medica 142 (2026)"
   highlight: 1
 
@@ -34,11 +34,11 @@
   highlight: 1
 
 - title: "Simulation of digital mammographic images using GAMOS: Proof of concept"
-  image: ""
+  image: "mimac/gr10_lrg.jpg"
   description: "Proof-of-concept of MIMAC, a GAMOS-based Monte Carlo pipeline for digital mammography simulation integrated with the VICTRE digital breast phantom."
   authors: "García Pinto D et al."  # TODO: complete author list
   link:
-    url: "#"  # TODO: add DOI
+    url: "https://www.physicamedica.com/article/S1120-1797(25)00105-X/fulltext"
     display: "Physica Medica 135 (2025)"
   highlight: 1
 
