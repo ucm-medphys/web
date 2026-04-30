@@ -15,15 +15,6 @@
     display: "Physica Medica 142 (2026)"
   highlight: 1
 
-- title: "A Generative Adversarial Approach to Remove Moiré Artifacts in Dark-Field and Phase-Contrast X-Ray Images"
-  image: ""
-  description: "GAN-based post-processing method to suppress Moiré fringe artefacts in dark-field and differential phase contrast images from grating-based X-ray imaging systems."
-  authors: "García Pinto D et al."  # TODO: complete author list
-  link:
-    url: "#"  # TODO: add DOI
-    display: "Lecture Notes in Computer Science (2025)"
-  highlight: 1
-
 - title: "XPCIpy: A Python toolkit for X-ray phase-contrast imaging"
   image: "xpcipy/XPCIpy.jpg"
   description: "Open-source Python package providing tools for X-ray phase-contrast imaging: phase retrieval, dark-field extraction, phase stepping analysis, and simulation utilities for grating-based systems."
@@ -40,6 +31,15 @@
   link:
     url: "https://www.physicamedica.com/article/S1120-1797(25)00105-X/fulltext"
     display: "Physica Medica 135 (2025)"
+  highlight: 1
+
+- title: "A Generative Adversarial Approach to Remove Moiré Artifacts in Dark-Field and Phase-Contrast X-Ray Images"
+  image: ""
+  description: "GAN-based post-processing method to suppress Moiré fringe artefacts in dark-field and differential phase contrast images from grating-based X-ray imaging systems."
+  authors: "García Pinto D et al."  # TODO: complete author list
+  link:
+    url: "#"  # TODO: add DOI
+    display: "Lecture Notes in Computer Science (2025)"
   highlight: 1
 
 - title: "Verification of the SyRIS simulation framework for a Talbot–Lau interferometric phase contrast imaging system with a micro-focus X-ray source"
