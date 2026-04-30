@@ -10,17 +10,7 @@ We develop and validate emerging X-ray imaging technologies through a combinatio
 
 Our research integrates instrumentation, simulation pipelines based on **Geant4 / GAMOS**, and **deep learning** methods for the generation of synthetic data and for image processing tasks. We collaborate closely with the **Hospital Universitario 12 de Octubre** and other clinical and academic partners in Madrid, and collaborate with the research group at the **University of Girona** coordinating the **IMPACT** network on phase contrast imaging access.
 
-<div class="research-areas-strip" markdown="0">
-  <span>X-ray phase contrast imaging</span>
-  <span class="sep">&middot;</span>
-  <span>Monte Carlo simulation</span>
-  <span class="sep">&middot;</span>
-  <span>Virtual clinical trials</span>
-  <span class="sep">&middot;</span>
-  <span>Deep learning</span>
-  <span class="sep">&middot;</span>
-  <span>Preclinical imaging</span>
-</div>
+{% include carousel.html %}
 
 ### About us
 
