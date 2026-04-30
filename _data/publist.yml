@@ -36,7 +36,7 @@
 - title: "A Generative Adversarial Approach to Remove Moiré Artifacts in Dark-Field and Phase-Contrast X-Ray Images"
   image: "moire/644350_1_En_18_Fig1.png"
   description: "GAN-based post-processing method to suppress Moiré fringe artefacts in dark-field and differential phase contrast images from grating-based X-ray imaging systems."
-  authors: "García Pinto D et al."  # TODO: complete author list
+  authors: "Eloy García, Diego García Pinto, Victor Sánchez-Lara, Ricardo Montoya del Ángel, Robert Martí"
   link:
     url: "https://link.springer.com/chapter/10.1007/978-3-031-77789-9_18"
     display: "Lecture Notes in Computer Science (2025)"
