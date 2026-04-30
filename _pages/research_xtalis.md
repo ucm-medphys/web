@@ -10,9 +10,7 @@ permalink: /research/xtalis/
 
 **Grating-based phase contrast X-ray imaging system.**
 
-<div class="xtalis-banner" markdown="0">
-<img src="{{ site.url }}{{ site.baseurl }}/images/xtalis/xtalis_logo_white.png" alt="XTALIS" style="display:block;max-width:320px;height:auto;margin:0;" />
-</div>
+<p markdown="0"><img src="{{ site.url }}{{ site.baseurl }}/images/xtalis/xtalis_logo_white.png" alt="XTALIS" style="display:block;height:52px;width:auto;margin:0 0 20px;" /></p>
 
 XTALIS is our home-built X-ray phase contrast imaging system, based on **Talbot–Lau grating interferometry** with a micro-focus laboratory X-ray source. Developed entirely in-house, it is the central experimental platform of this research line, providing data for validation studies, algorithm development, and preclinical imaging.
 
