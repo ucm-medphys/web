@@ -1,21 +1,23 @@
 <svg width="230" height="40" viewBox="0 0 230 40" xmlns="http://www.w3.org/2000/svg">
-  <!-- Icon: X-ray source (focal spot) + diverging fan beam
-       Central ray shown as a phase wave, outer rays as straight absorption lines -->
-  <g>
-    <!-- Focal spot -->
-    <circle cx="5" cy="20" r="4" fill="#2c7bb6"/>
-    <!-- Outer absorption rays (faded) -->
-    <line x1="9"   y1="20" x2="35" y2="5"  stroke="#2c7bb6" stroke-width="1.3" stroke-linecap="round" opacity="0.45"/>
-    <line x1="9"   y1="20" x2="35" y2="35" stroke="#2c7bb6" stroke-width="1.3" stroke-linecap="round" opacity="0.45"/>
-    <!-- Inner absorption rays -->
-    <line x1="9"   y1="20" x2="35" y2="12" stroke="#2c7bb6" stroke-width="1.3" stroke-linecap="round" opacity="0.7"/>
-    <line x1="9"   y1="20" x2="35" y2="28" stroke="#2c7bb6" stroke-width="1.3" stroke-linecap="round" opacity="0.7"/>
-    <!-- Central ray: phase wave (bold, dark) -->
-    <path d="M9 20 Q15 13 21 20 T35 20" fill="none" stroke="#1a1a2e" stroke-width="2" stroke-linecap="round"/>
-  </g>
+  <!-- Icon: X-ray imaging geometry — tube window / fan beam / detector -->
+
+  <!-- X-ray tube window (collimator) -->
+  <rect x="7" y="2" width="22" height="5" rx="2" fill="#2c7bb6"/>
+
+  <!-- Fan beam (5 diverging rays from tube center) -->
+  <line x1="18" y1="7"  x2="1"  y2="34" stroke="#2c7bb6" stroke-width="1.2" stroke-linecap="round" opacity="0.45"/>
+  <line x1="18" y1="7"  x2="8"  y2="34" stroke="#2c7bb6" stroke-width="1.3" stroke-linecap="round" opacity="0.70"/>
+  <line x1="18" y1="7"  x2="18" y2="34" stroke="#2c7bb6" stroke-width="1.6" stroke-linecap="round"/>
+  <line x1="18" y1="7"  x2="28" y2="34" stroke="#2c7bb6" stroke-width="1.3" stroke-linecap="round" opacity="0.70"/>
+  <line x1="18" y1="7"  x2="35" y2="34" stroke="#2c7bb6" stroke-width="1.2" stroke-linecap="round" opacity="0.45"/>
+
+  <!-- Image receptor / detector (bottom) -->
+  <rect x="0" y="34" width="36" height="4" rx="1.5" fill="#1a1a2e"/>
+
   <!-- separator -->
-  <line x1="47" y1="7" x2="47" y2="33" stroke="#d0d8e0" stroke-width="1"/>
+  <line x1="48" y1="7" x2="48" y2="33" stroke="#d0d8e0" stroke-width="1"/>
+
   <!-- text -->
-  <text x="57" y="21" font-family="Inter,-apple-system,Helvetica,sans-serif" font-size="16" font-weight="700" fill="#1a1a2e" letter-spacing="-0.3">UCM X-Ray</text>
-  <text x="57" y="35" font-family="Inter,-apple-system,Helvetica,sans-serif" font-size="10.5" font-weight="500" fill="#2c7bb6" letter-spacing="0.6">IMAGING GROUP</text>
+  <text x="58" y="21" font-family="Inter,-apple-system,Helvetica,sans-serif" font-size="16" font-weight="700" fill="#1a1a2e" letter-spacing="-0.3">UCM X-Ray</text>
+  <text x="58" y="35" font-family="Inter,-apple-system,Helvetica,sans-serif" font-size="10.5" font-weight="500" fill="#2c7bb6" letter-spacing="0.6">IMAGING GROUP</text>
 </svg>
