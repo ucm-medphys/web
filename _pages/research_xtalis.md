@@ -31,7 +31,7 @@ This is especially relevant in mammography and lung imaging, where subtle soft-t
 
 XTALIS implements the **Talbot–Lau interferometer** geometry, enabling grating-based phase contrast with a conventional (spatially incoherent) X-ray source through a source grating (G0). The three-grating setup (G0, G1, G2) produces moiré fringes whose analysis — via **phase stepping** — yields the three contrast signals simultaneously from a single acquisition series.
 
-<p markdown="0"><img src="{{ site.url }}{{ site.baseurl }}/images/xtalis/Sistema.png" alt="The XTALIS grating interferometry system at UCM Imaging Lab" style="width:100%;border-radius:3px;margin:12px 0 6px;"><em style="display:block;text-align:right;font-size:12px;color:#888;margin-bottom:18px;">The XTALIS Talbot–Lau grating interferometry system at the UCM Imaging Lab.</em></p>
+<p markdown="0"><img src="{{ site.url }}{{ site.baseurl }}/images/xtalis/Sistema.png" alt="The XTALIS grating interferometry system at UCM X-Ray Imaging Group" style="width:100%;border-radius:3px;margin:12px 0 6px;"><em style="display:block;text-align:right;font-size:12px;color:#888;margin-bottom:18px;">The XTALIS Talbot–Lau grating interferometry system at the UCM X-Ray Imaging Group.</em></p>
 
 Key characteristics:
 - Micro-focus laboratory X-ray source

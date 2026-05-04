@@ -1,14 +1,14 @@
 ---
-title: "UCM Imaging Lab - Teaching"
+title: "UCM X-Ray Imaging Group - Teaching"
 layout: textlay
-excerpt: "Teaching and student projects at the UCM Imaging Lab."
+excerpt: "Teaching and student projects at the UCM X-Ray Imaging Group."
 sitemap: false
 permalink: /teaching/
 ---
 
 # Teaching
 
-The members of the UCM Imaging Lab contribute to teaching at the **Facultad de Medicina** of the Universidad Complutense de Madrid, primarily in subjects related to medical physics, biomedical instrumentation, and radiation physics.
+The members of the UCM X-Ray Imaging Group contribute to teaching at the **Facultad de Medicina** of the Universidad Complutense de Madrid, primarily in subjects related to medical physics, biomedical instrumentation, and radiation physics.
 
 ---
 

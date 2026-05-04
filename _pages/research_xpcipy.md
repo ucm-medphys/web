@@ -10,7 +10,7 @@ permalink: /research/xtalis/xpcipy/
 
 **Open-source Python toolkit for X-ray phase-contrast imaging.**
 
-XPCIpy is a Python package developed at the UCM Imaging Lab to support research in grating-based X-ray phase-contrast imaging. It provides a modular set of tools covering the full workflow from raw phase stepping data to quantitative image reconstruction, with support for simulation-based validation.
+XPCIpy is a Python package developed at the UCM X-Ray Imaging Group to support research in grating-based X-ray phase-contrast imaging. It provides a modular set of tools covering the full workflow from raw phase stepping data to quantitative image reconstruction, with support for simulation-based validation.
 
 The package was developed in the context of the [XTALIS]({{ site.url }}{{ site.baseurl }}/research/xtalis/) experimental system and is described in detail in our [*Optics Express* publication (2025)](https://opg.optica.org/oe/fulltext.cfm?uri=oe-33-22-45949).
 

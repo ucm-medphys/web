@@ -1,7 +1,7 @@
 ---
-title: "UCM Imaging Lab - Home"
+title: "UCM X-Ray Imaging Group - Home"
 layout: homelay
-excerpt: "UCM Imaging Lab — Medical Physics & Biomedical Instrumentation Research Group, Universidad Complutense de Madrid."
+excerpt: "UCM X-Ray Imaging Group — Medical Physics & Biomedical Instrumentation Research Group, Universidad Complutense de Madrid."
 sitemap: false
 permalink: /
 ---
@@ -14,6 +14,6 @@ Our research integrates instrumentation, simulation pipelines based on **Geant4 
 
 ### About us
 
-The **UCM Imaging Lab** is the research line on new medical imaging modalities of the [**Medical Physics &amp; Biomedical Instrumentation Research Group**](https://medicina.ucm.es/grupos/grupo/446) (Group 920560), based at the [**Faculty of Medicine**](https://medicina.ucm.es/) of the [**Universidad Complutense de Madrid**](https://www.ucm.es). Our group's full scientific output is available at the [**UCM Research Portal**](https://produccioncientifica.ucm.es/grupos/5241/detalle).
+The **UCM X-Ray Imaging Group** is the research line on new medical imaging modalities of the [**Medical Physics &amp; Biomedical Instrumentation Research Group**](https://medicina.ucm.es/grupos/grupo/446) (Group 920560), based at the [**Faculty of Medicine**](https://medicina.ucm.es/) of the [**Universidad Complutense de Madrid**](https://www.ucm.es). Our group's full scientific output is available at the [**UCM Research Portal**](https://produccioncientifica.ucm.es/grupos/5241/detalle).
 
 We train PhD candidates and master students in medical imaging, simulation, and AI applied to radiology. **We welcome PhD students, postdocs, and master students interested in joining our research.** Please see our [Contact]({{ site.url }}{{ site.baseurl }}/contact/) page for more information.

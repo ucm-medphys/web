@@ -1,14 +1,14 @@
 ---
-title: "UCM Imaging Lab - Contact"
+title: "UCM X-Ray Imaging Group - Contact"
 layout: textlay
-excerpt: "Contact information for the UCM Imaging Lab, Medical Physics & Biomedical Instrumentation Research Group, UCM."
+excerpt: "Contact information for the UCM X-Ray Imaging Group, Medical Physics & Biomedical Instrumentation Research Group, UCM."
 sitemap: false
 permalink: /contact/
 ---
 
 # Contact
 
-**UCM Imaging Lab**  
+**UCM X-Ray Imaging Group**  
 Medical Physics &amp; Biomedical Instrumentation Research Group (920560)  
 Facultad de Medicina · Universidad Complutense de Madrid  
 Plaza de Ramón y Cajal s/n · 28040 Madrid · Spain

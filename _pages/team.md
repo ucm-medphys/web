@@ -1,7 +1,7 @@
 ---
-title: "UCM Imaging Lab - Group"
+title: "UCM X-Ray Imaging Group - Group"
 layout: gridlay
-excerpt: "UCM Imaging Lab: Group members"
+excerpt: "UCM X-Ray Imaging Group: Group members"
 sitemap: false
 permalink: /team/
 ---

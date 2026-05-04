@@ -1,7 +1,7 @@
 ---
-title: "UCM Imaging Lab - Funding"
+title: "UCM X-Ray Imaging Group - Funding"
 layout: textlay
-excerpt: "Research funding and projects of the UCM Imaging Lab."
+excerpt: "Research funding and projects of the UCM X-Ray Imaging Group."
 sitemap: false
 permalink: /funding/
 ---

@@ -1,7 +1,7 @@
 ---
-title: "UCM Imaging Lab - Research"
+title: "UCM X-Ray Imaging Group - Research"
 layout: textlay
-excerpt: "Research lines of the UCM Imaging Lab."
+excerpt: "Research lines of the UCM X-Ray Imaging Group."
 sitemap: false
 permalink: /research/
 ---

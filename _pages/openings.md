@@ -1,7 +1,7 @@
 ---
-title: "UCM Imaging Lab - Openings"
+title: "UCM X-Ray Imaging Group - Openings"
 layout: textlay
-excerpt: "Open positions and opportunities to join the UCM Imaging Lab."
+excerpt: "Open positions and opportunities to join the UCM X-Ray Imaging Group."
 sitemap: false
 permalink: /openings/
 ---
