@@ -1,30 +1,66 @@
-<svg width="230" height="40" viewBox="0 0 230 40" xmlns="http://www.w3.org/2000/svg">
-  <!-- Icon: simplified chest radiograph -->
+<svg width="400" height="110" viewBox="0 0 400 110" xmlns="http://www.w3.org/2000/svg">
 
-  <!-- Film (dark background, like an actual X-ray plate) -->
-  <rect x="2" y="1" width="32" height="38" rx="2" fill="#1a1a2e"/>
-  <!-- Subtle inner border -->
-  <rect x="3.5" y="2.5" width="29" height="35" rx="1.5" fill="none" stroke="#2c7bb6" stroke-width="0.7" opacity="0.45"/>
+  <!-- ============================================================
+       ICON: X-ray imaging chain
+       (1) X-ray tube  →  (2) fan beam  →  (3) chest radiograph
+       Central ray shown as phase wave — references group specialty
+       ============================================================ -->
 
-  <!-- Left lung field (air = bright) -->
-  <ellipse cx="12" cy="21" rx="7" ry="12" fill="white" opacity="0.27"/>
-  <!-- Right lung field -->
-  <ellipse cx="24" cy="21" rx="7" ry="12" fill="white" opacity="0.27"/>
+  <!-- 1. X-ray tube housing -->
+  <rect x="19" y="3" width="62" height="14" rx="3" fill="#1a1a2e" stroke="#2c7bb6" stroke-width="1.5"/>
+  <!-- Anode target (angled line inside housing) -->
+  <line x1="44" y1="6" x2="57" y2="15" stroke="#2c7bb6" stroke-width="1.8" stroke-linecap="round" opacity="0.75"/>
+  <!-- Focal spot (exit point of beam) -->
+  <circle cx="50" cy="18" r="3" fill="#2c7bb6"/>
 
-  <!-- Heart / mediastinum shadow (denser = darker) -->
-  <ellipse cx="17" cy="25" rx="5.5" ry="7.5" fill="#1a1a2e"/>
+  <!-- 2. Fan beam diverging from focal spot -->
+  <!-- Outer absorption rays (progressively faded) -->
+  <line x1="50" y1="18" x2="7"  y2="76" stroke="#2c7bb6" stroke-width="1.2" stroke-linecap="round" opacity="0.30"/>
+  <line x1="50" y1="18" x2="26" y2="76" stroke="#2c7bb6" stroke-width="1.4" stroke-linecap="round" opacity="0.58"/>
+  <line x1="50" y1="18" x2="74" y2="76" stroke="#2c7bb6" stroke-width="1.4" stroke-linecap="round" opacity="0.58"/>
+  <line x1="50" y1="18" x2="93" y2="76" stroke="#2c7bb6" stroke-width="1.2" stroke-linecap="round" opacity="0.30"/>
+  <!-- Central ray: phase wave (phase contrast reference) -->
+  <path d="M50 18 Q43 31 50 44 Q57 57 50 70 T50 76"
+        fill="none" stroke="#1a1a2e" stroke-width="2.2" stroke-linecap="round"/>
 
-  <!-- Ribs — left (2 curves) -->
-  <path d="M14 14 Q8 16 7 19"  fill="none" stroke="white" stroke-width="0.9" opacity="0.35" stroke-linecap="round"/>
-  <path d="M14 21 Q8 23 7 26"  fill="none" stroke="white" stroke-width="0.9" opacity="0.35" stroke-linecap="round"/>
+  <!-- 3. Chest radiograph (image receptor) -->
+  <!-- Film background -->
+  <rect x="6" y="76" width="88" height="30" rx="2.5" fill="#1a1a2e"/>
+  <!-- Film inner border -->
+  <rect x="7.5" y="77.5" width="85" height="27" rx="1.5" fill="none" stroke="#2c7bb6" stroke-width="0.8" opacity="0.40"/>
+
+  <!-- Lung fields (air = bright in X-ray) -->
+  <ellipse cx="27" cy="92" rx="15" ry="10" fill="white" opacity="0.27"/>
+  <ellipse cx="63" cy="92" rx="15" ry="10" fill="white" opacity="0.27"/>
+
+  <!-- Heart / mediastinum (drawn on top → covers medial lung portions) -->
+  <ellipse cx="44" cy="95" rx="12" ry="9.5" fill="#1a1a2e"/>
+
+  <!-- Spine (subtle) -->
+  <line x1="47" y1="78" x2="47" y2="104" stroke="white" stroke-width="2.5" opacity="0.09" stroke-linecap="round"/>
+
+  <!-- Ribs — left (3 curves) -->
+  <path d="M27 83 Q18 85 16 89" fill="none" stroke="white" stroke-width="1.0" stroke-linecap="round" opacity="0.34"/>
+  <path d="M26 89 Q17 91 15 95" fill="none" stroke="white" stroke-width="1.0" stroke-linecap="round" opacity="0.28"/>
+  <path d="M26 95 Q18 97 17 100" fill="none" stroke="white" stroke-width="1.0" stroke-linecap="round" opacity="0.20"/>
   <!-- Ribs — right -->
-  <path d="M22 14 Q28 16 29 19" fill="none" stroke="white" stroke-width="0.9" opacity="0.35" stroke-linecap="round"/>
-  <path d="M22 21 Q28 23 29 26" fill="none" stroke="white" stroke-width="0.9" opacity="0.35" stroke-linecap="round"/>
+  <path d="M61 83 Q72 85 74 89" fill="none" stroke="white" stroke-width="1.0" stroke-linecap="round" opacity="0.34"/>
+  <path d="M62 89 Q73 91 75 95" fill="none" stroke="white" stroke-width="1.0" stroke-linecap="round" opacity="0.28"/>
+  <path d="M62 95 Q72 97 73 100" fill="none" stroke="white" stroke-width="1.0" stroke-linecap="round" opacity="0.20"/>
 
-  <!-- separator -->
-  <line x1="47" y1="7" x2="47" y2="33" stroke="#d0d8e0" stroke-width="1"/>
+  <!-- ============================================================
+       SEPARATOR
+       ============================================================ -->
+  <line x1="116" y1="10" x2="116" y2="100" stroke="#d0d8e0" stroke-width="1.5"/>
 
-  <!-- text -->
-  <text x="57" y="21" font-family="Inter,-apple-system,Helvetica,sans-serif" font-size="16" font-weight="700" fill="#1a1a2e" letter-spacing="-0.3">UCM X-Ray</text>
-  <text x="57" y="35" font-family="Inter,-apple-system,Helvetica,sans-serif" font-size="10.5" font-weight="500" fill="#2c7bb6" letter-spacing="0.6">IMAGING GROUP</text>
+  <!-- ============================================================
+       TEXT
+       ============================================================ -->
+  <text x="130" y="53"
+        font-family="Inter,-apple-system,BlinkMacSystemFont,Helvetica,sans-serif"
+        font-size="36" font-weight="700" fill="#1a1a2e" letter-spacing="-0.5">UCM X-Ray</text>
+  <text x="131" y="78"
+        font-family="Inter,-apple-system,BlinkMacSystemFont,Helvetica,sans-serif"
+        font-size="21" font-weight="500" fill="#2c7bb6" letter-spacing="2.5">IMAGING GROUP</text>
+
 </svg>
