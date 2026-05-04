@@ -1,0 +1,17 @@
+<svg width="230" height="40" viewBox="0 0 230 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Icon: three Talbot-Lau gratings (G0, G1, G2) with a phase wave -->
+  <g>
+    <rect x="2"  y="5" width="4" height="30" rx="1.5" fill="#2c7bb6"/>
+    <rect x="14" y="5" width="4" height="30" rx="1.5" fill="#2c7bb6"/>
+    <rect x="26" y="5" width="4" height="30" rx="1.5" fill="#2c7bb6"/>
+    <!-- absorption beam (dashed) -->
+    <line x1="0" y1="14" x2="34" y2="14" stroke="#1a1a2e" stroke-width="1" stroke-dasharray="2.5,2.5" opacity="0.35"/>
+    <!-- phase wave -->
+    <path d="M0 26 Q8.5 16 17 26 T34 26" fill="none" stroke="#1a1a2e" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <!-- separator -->
+  <line x1="46" y1="7" x2="46" y2="33" stroke="#d0d8e0" stroke-width="1"/>
+  <!-- text -->
+  <text x="56" y="21" font-family="Inter,-apple-system,Helvetica,sans-serif" font-size="16" font-weight="700" fill="#1a1a2e" letter-spacing="-0.3">UCM X-Ray</text>
+  <text x="56" y="35" font-family="Inter,-apple-system,Helvetica,sans-serif" font-size="10.5" font-weight="500" fill="#2c7bb6" letter-spacing="0.6">IMAGING GROUP</text>
+</svg>
