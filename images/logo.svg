@@ -1,10 +1,6 @@
 <svg width="300" height="80" viewBox="0 0 300 80" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!--
-      Phase contrast edge filter (on white/transparent background):
-      Blue glow around dark elements = constructive interference bright fringe
-      characteristic of PCI images at material boundaries.
-    -->
+    <!-- Blue phase-contrast halo around dark elements -->
     <filter id="phaseHalo" x="-30%" y="-30%" width="160%" height="160%">
       <feGaussianBlur in="SourceAlpha" stdDeviation="2.4" result="blur"/>
       <feColorMatrix in="blur" type="matrix"
@@ -18,45 +14,60 @@
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
+
+    <!-- Outline-only filter for blades: removes the solid fill,
+         keeps only the glowing edge (PCI bright fringe at boundaries) -->
+    <filter id="phaseOutline" x="-30%" y="-30%" width="160%" height="160%">
+      <!-- Outer halo: blur the alpha outward -->
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2.6" result="outerBlur"/>
+      <!-- Subtract original alpha so only the outer fringe remains -->
+      <feComposite in="outerBlur" in2="SourceAlpha" operator="out" result="outerFringe"/>
+      <!-- Inner fringe: erode alpha then subtract from original -->
+      <feMorphology in="SourceAlpha" operator="erode" radius="2" result="eroded"/>
+      <feComposite in="SourceAlpha" in2="eroded" operator="out" result="innerFringe"/>
+      <!-- Merge both fringes -->
+      <feMerge result="allFringes">
+        <feMergeNode in="outerFringe"/>
+        <feMergeNode in="innerFringe"/>
+      </feMerge>
+      <!-- Soften -->
+      <feGaussianBlur in="allFringes" stdDeviation="0.8" result="softFringes"/>
+      <!-- Color blue -->
+      <feColorMatrix in="softFringes" type="matrix"
+        values="0 0 0 0 0.173
+                0 0 0 0 0.482
+                0 0 0 0 0.714
+                0 0 0 0.80 0"/>
+    </filter>
   </defs>
 
-  <!-- === ICON: radiation symbol, B&W, with phase contrast halo === -->
-
-  <!--
-    All symbol elements in a single group so the blue phase fringe
-    appears consistently around every boundary (outer ring + blades + disk).
-  -->
+  <!-- Outer ring + center disk: solid dark with blue halo -->
   <g filter="url(#phaseHalo)">
-    <!-- Outer ring -->
     <circle cx="40" cy="40" r="34" fill="none" stroke="#1a1a2e" stroke-width="2.2"/>
-
-    <!-- Trefoil blades (R=26, r=8, 60° each) -->
-    <path d="M36 33.07 L27 17.48 A26 26 0 0 1 53 17.48 L44 33.07 A8 8 0 0 0 36 33.07 Z"
-          fill="#1a1a2e"/>
-    <path d="M36 33.07 L27 17.48 A26 26 0 0 1 53 17.48 L44 33.07 A8 8 0 0 0 36 33.07 Z"
-          fill="#1a1a2e" transform="rotate(120 40 40)"/>
-    <path d="M36 33.07 L27 17.48 A26 26 0 0 1 53 17.48 L44 33.07 A8 8 0 0 0 36 33.07 Z"
-          fill="#1a1a2e" transform="rotate(240 40 40)"/>
-
-    <!-- Central disk -->
     <circle cx="40" cy="40" r="5.5" fill="#1a1a2e"/>
   </g>
 
-  <!-- Inner interference ring (Talbot fringe reference, drawn outside filter) -->
+  <!-- Blades: filled dark shapes fed into the outline filter —
+       only the edge fringes are rendered, interior disappears -->
+  <g filter="url(#phaseOutline)">
+    <path d="M36 33.07 L27 17.48 A26 26 0 0 1 53 17.48 L44 33.07 A8 8 0 0 0 36 33.07 Z" fill="#1a1a2e"/>
+    <path d="M36 33.07 L27 17.48 A26 26 0 0 1 53 17.48 L44 33.07 A8 8 0 0 0 36 33.07 Z" fill="#1a1a2e" transform="rotate(120 40 40)"/>
+    <path d="M36 33.07 L27 17.48 A26 26 0 0 1 53 17.48 L44 33.07 A8 8 0 0 0 36 33.07 Z" fill="#1a1a2e" transform="rotate(240 40 40)"/>
+  </g>
+
+  <!-- Inner interference ring -->
   <circle cx="40" cy="40" r="29" fill="none" stroke="#2c7bb6" stroke-width="1" opacity="0.38"/>
 
-  <!-- === SEPARATOR === -->
+  <!-- Separator -->
   <line x1="90" y1="12" x2="90" y2="68" stroke="#d0d8e0" stroke-width="1.5"/>
 
-  <!-- === TEXT === -->
+  <!-- Text -->
   <text x="103" y="35"
         font-family="Inter,-apple-system,BlinkMacSystemFont,Helvetica,sans-serif"
         font-size="24" font-weight="700" letter-spacing="-0.3">
     <tspan fill="#1a1a2e">UCM </tspan><tspan fill="#2c7bb6">X-Ray</tspan>
   </text>
-
   <rect x="103" y="41" width="188" height="0.9" fill="#2c7bb6" opacity="0.30"/>
-
   <text x="103" y="58"
         font-family="Inter,-apple-system,BlinkMacSystemFont,Helvetica,sans-serif"
         font-size="13.5" font-weight="500" fill="#2c7bb6" letter-spacing="2.8">IMAGING GROUP</text>
