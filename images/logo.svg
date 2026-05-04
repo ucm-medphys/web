@@ -1,73 +1,62 @@
 <svg width="300" height="80" viewBox="0 0 300 80" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <!--
-      Phase contrast halo filter:
-      Simulates the bright-edge enhancement characteristic of PCI images.
-      A soft white glow is added around each element, mimicking the
-      constructive interference fringe at material boundaries.
+      Phase contrast edge filter (on white/transparent background):
+      Blue glow around dark elements = constructive interference bright fringe
+      characteristic of PCI images at material boundaries.
     -->
     <filter id="phaseHalo" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur in="SourceAlpha" stdDeviation="2.2" result="blur"/>
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2.4" result="blur"/>
       <feColorMatrix in="blur" type="matrix"
-        values="0 0 0 0 1
-                0 0 0 0 1
-                0 0 0 0 1
-                0 0 0 0.42 0"
-        result="glow"/>
+        values="0 0 0 0 0.173
+                0 0 0 0 0.482
+                0 0 0 0 0.714
+                0 0 0 0.55 0"
+        result="blueGlow"/>
       <feMerge>
-        <feMergeNode in="glow"/>
+        <feMergeNode in="blueGlow"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
   </defs>
 
-  <!-- === ICON: radiation symbol on X-ray film background === -->
-
-  <!-- Dark circular background (X-ray plate / radiograph aesthetic) -->
-  <circle cx="40" cy="40" r="37" fill="#141824"/>
-
-  <!-- Outer ring (standard radiation symbol ring) -->
-  <circle cx="40" cy="40" r="34" fill="none" stroke="white" stroke-width="2" opacity="0.85"/>
-
-  <!-- Inner interference ring (phase contrast modification:
-       references the concentric Talbot carpet / fringe pattern) -->
-  <circle cx="40" cy="40" r="29" fill="none" stroke="white" stroke-width="0.8" opacity="0.28"/>
+  <!-- === ICON: radiation symbol, B&W, with phase contrast halo === -->
 
   <!--
-    Trefoil blades — standard radiation symbol geometry:
-      outer radius R = 26, inner radius r = 8, each blade spans 60°.
-    Blade 1 axis at 90° (pointing up in screen coords).
-    Blades 2 and 3 obtained by rotating ±120° around the icon centre.
-    Phase contrast halo filter applied to all white elements.
+    All symbol elements in a single group so the blue phase fringe
+    appears consistently around every boundary (outer ring + blades + disk).
   -->
-  <g fill="white" filter="url(#phaseHalo)">
-    <!-- Blade 1 (up) -->
-    <path d="M36 33.07 L27 17.48 A26 26 0 0 1 53 17.48 L44 33.07 A8 8 0 0 0 36 33.07 Z"/>
-    <!-- Blade 2 (lower-right) -->
+  <g filter="url(#phaseHalo)">
+    <!-- Outer ring -->
+    <circle cx="40" cy="40" r="34" fill="none" stroke="#1a1a2e" stroke-width="2.2"/>
+
+    <!-- Trefoil blades (R=26, r=8, 60° each) -->
     <path d="M36 33.07 L27 17.48 A26 26 0 0 1 53 17.48 L44 33.07 A8 8 0 0 0 36 33.07 Z"
-          transform="rotate(120 40 40)"/>
-    <!-- Blade 3 (lower-left) -->
+          fill="#1a1a2e"/>
     <path d="M36 33.07 L27 17.48 A26 26 0 0 1 53 17.48 L44 33.07 A8 8 0 0 0 36 33.07 Z"
-          transform="rotate(240 40 40)"/>
+          fill="#1a1a2e" transform="rotate(120 40 40)"/>
+    <path d="M36 33.07 L27 17.48 A26 26 0 0 1 53 17.48 L44 33.07 A8 8 0 0 0 36 33.07 Z"
+          fill="#1a1a2e" transform="rotate(240 40 40)"/>
+
     <!-- Central disk -->
-    <circle cx="40" cy="40" r="5.5"/>
+    <circle cx="40" cy="40" r="5.5" fill="#1a1a2e"/>
   </g>
+
+  <!-- Inner interference ring (Talbot fringe reference, drawn outside filter) -->
+  <circle cx="40" cy="40" r="29" fill="none" stroke="#2c7bb6" stroke-width="1" opacity="0.38"/>
 
   <!-- === SEPARATOR === -->
   <line x1="90" y1="12" x2="90" y2="68" stroke="#d0d8e0" stroke-width="1.5"/>
 
   <!-- === TEXT === -->
-  <!-- "UCM" dark + "X-Ray" in brand blue — two-tone typographic treatment -->
   <text x="103" y="35"
         font-family="Inter,-apple-system,BlinkMacSystemFont,Helvetica,sans-serif"
         font-size="24" font-weight="700" letter-spacing="-0.3">
     <tspan fill="#1a1a2e">UCM </tspan><tspan fill="#2c7bb6">X-Ray</tspan>
   </text>
 
-  <!-- Thin rule -->
   <rect x="103" y="41" width="188" height="0.9" fill="#2c7bb6" opacity="0.30"/>
 
-  <!-- Descriptor -->
   <text x="103" y="58"
         font-family="Inter,-apple-system,BlinkMacSystemFont,Helvetica,sans-serif"
         font-size="13.5" font-weight="500" fill="#2c7bb6" letter-spacing="2.8">IMAGING GROUP</text>
