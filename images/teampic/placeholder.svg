@@ -1,0 +1,7 @@
+<svg width="150" height="150" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg">
+  <rect width="150" height="150" fill="#e9ecef" rx="8"/>
+  <!-- Head -->
+  <circle cx="75" cy="55" r="28" fill="#adb5bd"/>
+  <!-- Body / shoulders -->
+  <ellipse cx="75" cy="130" rx="46" ry="38" fill="#adb5bd"/>
+</svg>
