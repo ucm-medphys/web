@@ -1,66 +1,53 @@
-<svg width="400" height="110" viewBox="0 0 400 110" xmlns="http://www.w3.org/2000/svg">
+<svg width="320" height="64" viewBox="0 0 320 64" xmlns="http://www.w3.org/2000/svg">
 
-  <!-- ============================================================
-       ICON: X-ray imaging chain
-       (1) X-ray tube  →  (2) fan beam  →  (3) chest radiograph
-       Central ray shown as phase wave — references group specialty
-       ============================================================ -->
+  <!-- =============================================
+       ICON: radiation field crosshair
+       The standard X-ray field-centering indicator
+       used on every radiographic positioning system
+       ============================================= -->
 
-  <!-- 1. X-ray tube housing -->
-  <rect x="19" y="3" width="62" height="14" rx="3" fill="#1a1a2e" stroke="#2c7bb6" stroke-width="1.5"/>
-  <!-- Anode target (angled line inside housing) -->
-  <line x1="44" y1="6" x2="57" y2="15" stroke="#2c7bb6" stroke-width="1.8" stroke-linecap="round" opacity="0.75"/>
-  <!-- Focal spot (exit point of beam) -->
-  <circle cx="50" cy="18" r="3" fill="#2c7bb6"/>
+  <!-- Outer ring -->
+  <circle cx="32" cy="32" r="26" fill="none" stroke="#2c7bb6" stroke-width="2"/>
 
-  <!-- 2. Fan beam diverging from focal spot -->
-  <!-- Outer absorption rays (progressively faded) -->
-  <line x1="50" y1="18" x2="7"  y2="76" stroke="#2c7bb6" stroke-width="1.2" stroke-linecap="round" opacity="0.30"/>
-  <line x1="50" y1="18" x2="26" y2="76" stroke="#2c7bb6" stroke-width="1.4" stroke-linecap="round" opacity="0.58"/>
-  <line x1="50" y1="18" x2="74" y2="76" stroke="#2c7bb6" stroke-width="1.4" stroke-linecap="round" opacity="0.58"/>
-  <line x1="50" y1="18" x2="93" y2="76" stroke="#2c7bb6" stroke-width="1.2" stroke-linecap="round" opacity="0.30"/>
-  <!-- Central ray: phase wave (phase contrast reference) -->
-  <path d="M50 18 Q43 31 50 44 Q57 57 50 70 T50 76"
-        fill="none" stroke="#1a1a2e" stroke-width="2.2" stroke-linecap="round"/>
+  <!-- Crosshair lines (extending slightly beyond ring) -->
+  <line x1="32" y1="2"  x2="32" y2="15" stroke="#2c7bb6" stroke-width="1.6" stroke-linecap="round"/>
+  <line x1="32" y1="49" x2="32" y2="62" stroke="#2c7bb6" stroke-width="1.6" stroke-linecap="round"/>
+  <line x1="2"  y1="32" x2="15" y2="32" stroke="#2c7bb6" stroke-width="1.6" stroke-linecap="round"/>
+  <line x1="49" y1="32" x2="62" y2="32" stroke="#2c7bb6" stroke-width="1.6" stroke-linecap="round"/>
 
-  <!-- 3. Chest radiograph (image receptor) -->
-  <!-- Film background -->
-  <rect x="6" y="76" width="88" height="30" rx="2.5" fill="#1a1a2e"/>
-  <!-- Film inner border -->
-  <rect x="7.5" y="77.5" width="85" height="27" rx="1.5" fill="none" stroke="#2c7bb6" stroke-width="0.8" opacity="0.40"/>
+  <!-- Inner ring (double-circle detail, common in field indicators) -->
+  <circle cx="32" cy="32" r="10" fill="none" stroke="#2c7bb6" stroke-width="1.2" opacity="0.55"/>
 
-  <!-- Lung fields (air = bright in X-ray) -->
-  <ellipse cx="27" cy="92" rx="15" ry="10" fill="white" opacity="0.27"/>
-  <ellipse cx="63" cy="92" rx="15" ry="10" fill="white" opacity="0.27"/>
+  <!-- Center focal point -->
+  <circle cx="32" cy="32" r="3" fill="#2c7bb6"/>
 
-  <!-- Heart / mediastinum (drawn on top → covers medial lung portions) -->
-  <ellipse cx="44" cy="95" rx="12" ry="9.5" fill="#1a1a2e"/>
-
-  <!-- Spine (subtle) -->
-  <line x1="47" y1="78" x2="47" y2="104" stroke="white" stroke-width="2.5" opacity="0.09" stroke-linecap="round"/>
-
-  <!-- Ribs — left (3 curves) -->
-  <path d="M27 83 Q18 85 16 89" fill="none" stroke="white" stroke-width="1.0" stroke-linecap="round" opacity="0.34"/>
-  <path d="M26 89 Q17 91 15 95" fill="none" stroke="white" stroke-width="1.0" stroke-linecap="round" opacity="0.28"/>
-  <path d="M26 95 Q18 97 17 100" fill="none" stroke="white" stroke-width="1.0" stroke-linecap="round" opacity="0.20"/>
-  <!-- Ribs — right -->
-  <path d="M61 83 Q72 85 74 89" fill="none" stroke="white" stroke-width="1.0" stroke-linecap="round" opacity="0.34"/>
-  <path d="M62 89 Q73 91 75 95" fill="none" stroke="white" stroke-width="1.0" stroke-linecap="round" opacity="0.28"/>
-  <path d="M62 95 Q72 97 73 100" fill="none" stroke="white" stroke-width="1.0" stroke-linecap="round" opacity="0.20"/>
-
-  <!-- ============================================================
+  <!-- =============================================
        SEPARATOR
-       ============================================================ -->
-  <line x1="116" y1="10" x2="116" y2="100" stroke="#d0d8e0" stroke-width="1.5"/>
+       ============================================= -->
+  <line x1="78" y1="10" x2="78" y2="54" stroke="#d0d8e0" stroke-width="1.5"/>
 
-  <!-- ============================================================
+  <!-- =============================================
        TEXT
-       ============================================================ -->
-  <text x="130" y="53"
+       ============================================= -->
+
+  <!-- UCM in blue badge -->
+  <rect x="90" y="10" width="38" height="18" rx="2.5" fill="#2c7bb6"/>
+  <text x="109" y="23"
+        text-anchor="middle"
         font-family="Inter,-apple-system,BlinkMacSystemFont,Helvetica,sans-serif"
-        font-size="36" font-weight="700" fill="#1a1a2e" letter-spacing="-0.5">UCM X-Ray</text>
-  <text x="131" y="78"
+        font-size="11.5" font-weight="700" fill="white" letter-spacing="1.5">UCM</text>
+
+  <!-- X-Ray (main brand name) -->
+  <text x="134" y="25"
         font-family="Inter,-apple-system,BlinkMacSystemFont,Helvetica,sans-serif"
-        font-size="21" font-weight="500" fill="#2c7bb6" letter-spacing="2.5">IMAGING GROUP</text>
+        font-size="22" font-weight="700" fill="#1a1a2e" letter-spacing="-0.3">X-Ray</text>
+
+  <!-- Thin rule -->
+  <rect x="90" y="33" width="222" height="1" fill="#2c7bb6" opacity="0.25"/>
+
+  <!-- Descriptor -->
+  <text x="91" y="50"
+        font-family="Inter,-apple-system,BlinkMacSystemFont,Helvetica,sans-serif"
+        font-size="13.5" font-weight="500" fill="#2c7bb6" letter-spacing="3">IMAGING GROUP</text>
 
 </svg>
