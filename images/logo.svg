@@ -1,17 +1,21 @@
 <svg width="230" height="40" viewBox="0 0 230 40" xmlns="http://www.w3.org/2000/svg">
-  <!-- Icon: three Talbot-Lau gratings (G0, G1, G2) with a phase wave -->
+  <!-- Icon: X-ray source (focal spot) + diverging fan beam
+       Central ray shown as a phase wave, outer rays as straight absorption lines -->
   <g>
-    <rect x="2"  y="5" width="4" height="30" rx="1.5" fill="#2c7bb6"/>
-    <rect x="14" y="5" width="4" height="30" rx="1.5" fill="#2c7bb6"/>
-    <rect x="26" y="5" width="4" height="30" rx="1.5" fill="#2c7bb6"/>
-    <!-- absorption beam (dashed) -->
-    <line x1="0" y1="14" x2="34" y2="14" stroke="#1a1a2e" stroke-width="1" stroke-dasharray="2.5,2.5" opacity="0.35"/>
-    <!-- phase wave -->
-    <path d="M0 26 Q8.5 16 17 26 T34 26" fill="none" stroke="#1a1a2e" stroke-width="2" stroke-linecap="round"/>
+    <!-- Focal spot -->
+    <circle cx="5" cy="20" r="4" fill="#2c7bb6"/>
+    <!-- Outer absorption rays (faded) -->
+    <line x1="9"   y1="20" x2="35" y2="5"  stroke="#2c7bb6" stroke-width="1.3" stroke-linecap="round" opacity="0.45"/>
+    <line x1="9"   y1="20" x2="35" y2="35" stroke="#2c7bb6" stroke-width="1.3" stroke-linecap="round" opacity="0.45"/>
+    <!-- Inner absorption rays -->
+    <line x1="9"   y1="20" x2="35" y2="12" stroke="#2c7bb6" stroke-width="1.3" stroke-linecap="round" opacity="0.7"/>
+    <line x1="9"   y1="20" x2="35" y2="28" stroke="#2c7bb6" stroke-width="1.3" stroke-linecap="round" opacity="0.7"/>
+    <!-- Central ray: phase wave (bold, dark) -->
+    <path d="M9 20 Q15 13 21 20 T35 20" fill="none" stroke="#1a1a2e" stroke-width="2" stroke-linecap="round"/>
   </g>
   <!-- separator -->
-  <line x1="46" y1="7" x2="46" y2="33" stroke="#d0d8e0" stroke-width="1"/>
+  <line x1="47" y1="7" x2="47" y2="33" stroke="#d0d8e0" stroke-width="1"/>
   <!-- text -->
-  <text x="56" y="21" font-family="Inter,-apple-system,Helvetica,sans-serif" font-size="16" font-weight="700" fill="#1a1a2e" letter-spacing="-0.3">UCM X-Ray</text>
-  <text x="56" y="35" font-family="Inter,-apple-system,Helvetica,sans-serif" font-size="10.5" font-weight="500" fill="#2c7bb6" letter-spacing="0.6">IMAGING GROUP</text>
+  <text x="57" y="21" font-family="Inter,-apple-system,Helvetica,sans-serif" font-size="16" font-weight="700" fill="#1a1a2e" letter-spacing="-0.3">UCM X-Ray</text>
+  <text x="57" y="35" font-family="Inter,-apple-system,Helvetica,sans-serif" font-size="10.5" font-weight="500" fill="#2c7bb6" letter-spacing="0.6">IMAGING GROUP</text>
 </svg>
